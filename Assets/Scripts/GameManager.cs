@@ -28,19 +28,22 @@ public class GameManager : MonoBehaviour
     public Transform lowPriorityContainer;
     public Transform noPriorityContainer;
     public Button completeButton;
+    public Button resetButton;  // 新增复原按钮引用
 
     public GameObject itemPrefab;
 
     private GameData gameData = new GameData();
     private string saveFilePath;
+    private bool isInResetMode = false;  // 是否处于复原模式
 
     void Awake()
     {
         saveFilePath = Path.Combine(Application.persistentDataPath, "itemsData.json");
         LoadData();
 
-        // 注册完成按钮点击事件
+        // 注册按钮点击事件
         completeButton.onClick.AddListener(OnCompleteButtonClick);
+        resetButton.onClick.AddListener(OnResetButtonClick);  // 注册复原按钮点击事件
     }
 
     void Start()
@@ -58,7 +61,7 @@ public class GameManager : MonoBehaviour
     void InitializeData()
     {
         // 初始化12个物体的数据
-        string[] ids = { "Weather Changes", "Menu Development System", "Marketing", "Music and Sound Effects", "Holiday Rewards", "Restaurant Operation System", "Customized Employee Appearance", "Dance Floor Construction", "Renovation and Upgrades", "Room Cleaning", "Hunting System", "UI/UX" };
+        string[] ids = { "Weather Changes", "Recipe Creation System", "Marketing", "Music and Sound Effects", "Holiday Rewards", "Restaurant Operation System", "Customized Employee Appearance", "Dance Floor Construction", "Renovation and Upgrades", "Room Cleaning", "Hunting System", "UI/UX" };
         string[] priorities = {
             "高优先级", "高优先级", "高优先级",
             "中优先级", "中优先级", "中优先级",
@@ -206,18 +209,40 @@ public class GameManager : MonoBehaviour
         return gameData.items.Find(i => i.itemId == itemId);
     }
 
-    public void ToggleItemSelection(string itemId)
+    // 获取当前已选中物体的数量
+    private int GetSelectedItemsCount()
+    {
+        return gameData.items.Count(item => item.isSelected);
+    }
+
+    public bool ToggleItemSelection(string itemId)
     {
         // 切换物体的选中状态
         ItemData item = gameData.items.Find(i => i.itemId == itemId);
         if (item != null)
         {
+            // 如果当前是未选中状态，要变为选中
+            if (!item.isSelected)
+            {
+                // 检查已选中的物体数量
+                int selectedCount = GetSelectedItemsCount();
+                if (selectedCount >= 3)
+                {
+                    // 已达到最大选中数量，不允许再选
+                    Debug.Log($"已达到最大选中数量(3个)，不能再选中物体 {itemId}");
+                    return false;
+                }
+            }
+
+            // 执行切换操作
             item.isSelected = !item.isSelected;
             SaveData();
 
             // 打印调试信息
-            Debug.Log($"物体 {itemId} 选中状态: {item.isSelected}");
+            Debug.Log($"物体 {itemId} 选中状态: {item.isSelected}, 当前选中物体总数: {GetSelectedItemsCount()}");
+            return true;
         }
+        return false;
     }
 
     public void OnCompleteButtonClick()
@@ -234,6 +259,41 @@ public class GameManager : MonoBehaviour
 
         SaveData();
         UpdateUI();
+    }
+
+    // 添加复原按钮点击处理函数
+    public void OnResetButtonClick()
+    {
+        // 进入复原模式
+        isInResetMode = true;
+        Debug.Log("进入复原模式：点击已完成的物体可以恢复它们");
+    }
+
+    // 添加检查是否处于复原模式的方法
+    public bool IsInResetMode()
+    {
+        return isInResetMode;
+    }
+
+    // 添加恢复物体状态的方法
+    public void ResetItemState(string itemId)
+    {
+        // 恢复物体到未选中未完成状态
+        ItemData item = gameData.items.Find(i => i.itemId == itemId);
+        if (item != null && item.isCompleted)
+        {
+            item.isCompleted = false;
+            item.isSelected = false;
+
+            SaveData();
+            UpdateUI();
+
+            // 复原操作完成后，退出复原模式并禁用复原按钮
+            isInResetMode = false;
+            resetButton.gameObject.SetActive(false);
+
+            Debug.Log($"物体 {itemId} 已被恢复到初始状态，复原按钮已禁用");
+        }
     }
 
     public void SwapItems(string itemId1, string itemId2)

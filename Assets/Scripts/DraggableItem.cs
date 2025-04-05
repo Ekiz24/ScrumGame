@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using TMPro;
+using System.Collections;
 
 public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler
 {
@@ -197,19 +198,56 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        // 检查是否处于复原模式
+        if (gameManager.IsInResetMode())
+        {
+            // 在复原模式下，只有已完成的物体可以被恢复
+            if (itemData.isCompleted)
+            {
+                gameManager.ResetItemState(itemData.itemId);
+                return;
+            }
+        }
+
+        // 正常模式下的行为不变
         // 如果物体已完成，不允许再选中
         if (itemData.isCompleted)
             return;
 
-        // 只调用GameManager来切换状态
-        gameManager.ToggleItemSelection(itemData.itemId);
+        // 切换物体的选中状态
+        bool selectionChanged = gameManager.ToggleItemSelection(itemData.itemId);
 
-        // 从GameManager获取最新状态
-        ItemData updatedData = gameManager.GetItemData(itemData.itemId);
-        if (updatedData != null)
+        if (selectionChanged)
         {
-            itemData = updatedData;
-            UpdateVisualState();
+            // 从GameManager获取最新状态并更新视觉效果
+            ItemData updatedData = gameManager.GetItemData(itemData.itemId);
+            if (updatedData != null)
+            {
+                itemData = updatedData;
+                UpdateVisualState();
+            }
+        }
+        else
+        {
+            // 选择失败，可以添加提示效果
+            Debug.Log("已达到最大选择数量(3个)，请先取消选择其他物体");
+            // 可以添加UI反馈，比如闪烁效果
+            StartCoroutine(FlashWarning());
+        }
+    }
+
+    // 添加闪烁效果作为警告
+    private IEnumerator FlashWarning()
+    {
+        Color originalColor = background.color;
+
+        // 闪烁3次
+        for (int i = 0; i < 3; i++)
+        {
+            background.color = Color.red;
+            yield return new WaitForSeconds(0.1f);
+            background.color = originalColor;
+            yield return new WaitForSeconds(0.1f);
         }
     }
 }
