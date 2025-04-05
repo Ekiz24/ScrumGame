@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ic_stopwatch_fill_0: -4419443504433390370
+      ic_stopwatch_fill_1: 358221317110095756
+      ic_stopwatch_fill_2: 7916860646536530123
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
