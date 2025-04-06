@@ -19,6 +19,8 @@ public class ItemData
 public class GameData
 {
     public List<ItemData> items = new List<ItemData>();
+    public int performanceScore = 100; // 初始值为100
+    public int clientSatisfaction = 5; // 初始值为5
 }
 
 public class GameManager : MonoBehaviour
@@ -29,12 +31,34 @@ public class GameManager : MonoBehaviour
     public Transform noPriorityContainer;
     public Button completeButton;
     public Button resetButton;  // 新增复原按钮引用
+    public Button planningButton; // 新增规划按钮引用
 
     public GameObject itemPrefab;
 
     private GameData gameData = new GameData();
     private string saveFilePath;
     private bool isInResetMode = false;  // 是否处于复原模式
+    private bool isInPlanningMode = false; // 是否处于规划模式
+
+    public int PerformanceScore
+    {
+        get { return gameData.performanceScore; }
+        set
+        {
+            gameData.performanceScore = value;
+            SaveData();
+        }
+    }
+
+    public int ClientSatisfaction
+    {
+        get { return gameData.clientSatisfaction; }
+        set
+        {
+            gameData.clientSatisfaction = value;
+            SaveData();
+        }
+    }
 
     void Awake()
     {
@@ -44,6 +68,7 @@ public class GameManager : MonoBehaviour
         // 注册按钮点击事件
         completeButton.onClick.AddListener(OnCompleteButtonClick);
         resetButton.onClick.AddListener(OnResetButtonClick);  // 注册复原按钮点击事件
+        planningButton.onClick.AddListener(OnPlanningButtonClick); // 新增规划按钮监听
     }
 
     void Start()
@@ -94,6 +119,10 @@ public class GameManager : MonoBehaviour
             gameData.items.Add(item);
         }
 
+        // 确保性能分数和客户满意度设置为初始值
+        gameData.performanceScore = 100;
+        gameData.clientSatisfaction = 5;
+
         SaveData();
     }
 
@@ -129,6 +158,10 @@ public class GameManager : MonoBehaviour
 
         // 按索引排序
         highPriorityItems.Sort((a, b) => a.positionIndex.CompareTo(b.positionIndex));
+        mediumPriorityItems.Sort((a, b) => a.positionIndex.CompareTo(b.positionIndex));
+        lowPriorityItems.Sort((a, b) => a.positionIndex.CompareTo(b.positionIndex));
+        noPriorityItems.Sort((a, b) => a.positionIndex.CompareTo(b.positionIndex));
+
         mediumPriorityItems.Sort((a, b) => a.positionIndex.CompareTo(b.positionIndex));
         lowPriorityItems.Sort((a, b) => a.positionIndex.CompareTo(b.positionIndex));
         noPriorityItems.Sort((a, b) => a.positionIndex.CompareTo(b.positionIndex));
@@ -325,6 +358,24 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // 更新性能分数
+    public void UpdatePerformanceScore(int amount)
+    {
+        gameData.performanceScore += amount;
+        Debug.Log($"性能分数更新: {gameData.performanceScore}");
+        SaveData();
+    }
+
+    // 更新客户满意度
+    public void UpdateClientSatisfaction(int amount)
+    {
+        gameData.clientSatisfaction += amount;
+        // 确保客户满意度在合理范围内（例如1-10）
+        gameData.clientSatisfaction = Mathf.Clamp(gameData.clientSatisfaction, 1, 10);
+        Debug.Log($"客户满意度更新: {gameData.clientSatisfaction}");
+        SaveData();
+    }
+
     void SaveData()
     {
         // 保存数据到JSON文件
@@ -341,5 +392,28 @@ public class GameManager : MonoBehaviour
             string jsonData = File.ReadAllText(saveFilePath);
             gameData = JsonUtility.FromJson<GameData>(jsonData);
         }
+    }
+
+    // 添加规划按钮点击处理方法
+    public void OnPlanningButtonClick()
+    {
+        // 切换规划模式状态
+        isInPlanningMode = !isInPlanningMode;
+
+        // 更新按钮文本或外观以反映当前状态
+        // 这里假设规划按钮有Text组件
+        Text buttonText = planningButton.GetComponentInChildren<Text>();
+        if (buttonText != null)
+        {
+            buttonText.text = isInPlanningMode ? "完成规划" : "开始规划";
+        }
+
+        Debug.Log(isInPlanningMode ? "进入规划模式：可以选择任务" : "退出规划模式：不能选择任务");
+    }
+
+    // 添加检查是否处于规划模式的方法
+    public bool IsInPlanningMode()
+    {
+        return isInPlanningMode;
     }
 }

@@ -209,10 +209,19 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             }
         }
 
-        // 正常模式下的行为不变
+        // 正常模式下的行为
         // 如果物体已完成，不允许再选中
         if (itemData.isCompleted)
             return;
+
+        // 只有在规划模式下才能选中/取消选中任务
+        if (!gameManager.IsInPlanningMode())
+        {
+            Debug.Log("当前不在规划模式，无法选择任务。请先点击规划按钮。");
+            // 可以添加提示效果
+            //StartCoroutine(FlashInfo());
+            return;
+        }
 
         // 切换物体的选中状态
         bool selectionChanged = gameManager.ToggleItemSelection(itemData.itemId);
@@ -250,4 +259,19 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             yield return new WaitForSeconds(0.1f);
         }
     }
+
+    // // 添加信息提示闪烁效果:不能选中，未在规划模式
+    // private IEnumerator FlashInfo()
+    // {
+    //     Color originalColor = background.color;
+
+    //     // 闪烁2次蓝色表示信息提示
+    //     for (int i = 0; i < 2; i++)
+    //     {
+    //         background.color = Color.blue;
+    //         yield return new WaitForSeconds(0.1f);
+    //         background.color = originalColor;
+    //         yield return new WaitForSeconds(0.1f);
+    //     }
+    // }
 }

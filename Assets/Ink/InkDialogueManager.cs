@@ -126,7 +126,7 @@ public class InkDialogueManager : MonoBehaviour
         string[] tagSplit;
         Sprite characterImage = null;
         string characterName = "";
-        int characterPos = 2;
+        int characterPos = 0;
         for (int i = 0; i < tags.Count; i++)
         {
             if (!tags[i].Contains(":"))
@@ -179,7 +179,7 @@ public class InkDialogueManager : MonoBehaviour
         }
         else
         {
-            characterNameBox.gameObject.SetActive(false);
+            characterNameBox.gameObject.SetActive(true);
         }
 
         //Change text
