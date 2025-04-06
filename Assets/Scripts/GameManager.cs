@@ -462,6 +462,139 @@ public class GameManager : MonoBehaviour
     }
 
     /// <summary>
+    /// 检查Product Backlog中的任务优先级是否正确
+    /// 每个任务分类错误将扣除1分表现分
+    /// </summary>
+    public void PrioritizeProductBacklog()
+    {
+        int deductionPoints = 0;
+
+        // 定义每个优先级应有的任务
+        Dictionary<string, string[]> priorityTasks = new Dictionary<string, string[]>
+        {
+            { "高优先级", new[] { "Restaurant Operation System", "Recipe Creation System", "UI/UX" } },
+            { "中优先级", new[] { "Marketing", "Renovation and Upgrades", "Music and Sound Effects" } },
+            { "低优先级", new[] { "Weather Changes", "Holiday Rewards", "Customized Employee Appearance" } },
+            { "无优先级", new[] { "Hunting System", "Dance Floor Construction", "Room Cleaning" } }
+        };
+
+        // 检查每个优先级的任务
+        foreach (var priorityGroup in priorityTasks)
+        {
+            string priority = priorityGroup.Key;
+            string[] tasks = priorityGroup.Value;
+
+            foreach (string taskId in tasks)
+            {
+                ItemData item = gameData.items.Find(i => i.itemId == taskId);
+                if (item != null)
+                {
+                    if (item.priority != priority)
+                    {
+                        // 任务优先级错误，扣1分
+                        deductionPoints++;
+                        Debug.Log($"任务 '{taskId}' 应该在'{priority}'中，但当前在'{item.priority}'中，扣1分表现分");
+                    }
+                    else
+                    {
+                        Debug.Log($"任务 '{taskId}' 正确地在'{priority}'中");
+                    }
+                }
+                else
+                {
+                    Debug.LogWarning($"未找到任务 '{taskId}'");
+                }
+            }
+        }
+
+        // 如果有扣分，更新性能分数
+        if (deductionPoints > 0)
+        {
+            UpdatePerformanceScore(-deductionPoints);
+            Debug.Log($"总共扣除 {deductionPoints} 分表现分，当前表现分：{gameData.performanceScore}");
+        }
+        else
+        {
+            Debug.Log("所有任务优先级正确！");
+        }
+    }
+
+    /// <summary>
+    /// 检查三个特定任务是否处于选中或完成状态
+    /// 如果任务既不是选中状态也不是完成状态，则扣1分表现分
+    /// </summary>
+    public void Check3SelectionStates()
+    {
+        // 需要检查的任务列表
+        string[] tasksToCheck = { "Restaurant Operation System", "Recipe Creation System", "UI/UX" };
+        int deductionPoints = 0;
+
+        foreach (string taskId in tasksToCheck)
+        {
+            ItemData item = gameData.items.Find(i => i.itemId == taskId);
+            if (item != null)
+            {
+                if (!item.isSelected && !item.isCompleted)
+                {
+                    // 如果任务既不是选中状态也不是完成状态，扣1分
+                    deductionPoints++;
+                    Debug.Log($"任务 '{taskId}' 既不是选中状态也不是完成状态，扣1分表现分");
+                }
+                else
+                {
+                    string status = item.isCompleted ? "完成" : "选中";
+                    Debug.Log($"任务 '{taskId}' 当前处于{status}状态");
+                }
+            }
+            else
+            {
+                Debug.LogWarning($"未找到任务 '{taskId}'");
+            }
+        }
+
+        // 如果有扣分，更新性能分数
+        if (deductionPoints > 0)
+        {
+            UpdatePerformanceScore(-deductionPoints);
+            Debug.Log($"总共扣除 {deductionPoints} 分表现分，当前表现分：{gameData.performanceScore}");
+        }
+        else
+        {
+            Debug.Log("所有关键任务都已经被选中或完成！");
+        }
+    }
+
+    /// <summary>
+    /// 将当前所有处于选中状态的Task变成完成状态
+    /// </summary>
+    public void CompleteSelectedTasks()
+    {
+        int completedCount = 0;
+
+        // 将所有选中的物体标记为已完成
+        foreach (ItemData item in gameData.items)
+        {
+            if (item.isSelected)
+            {
+                item.isSelected = false;
+                item.isCompleted = true;
+                completedCount++;
+                Debug.Log($"任务 '{item.itemId}' 已从选中状态变为完成状态");
+            }
+        }
+
+        // 如果有任务被完成，激活复原按钮
+        if (completedCount > 0)
+        {
+            resetButton.gameObject.SetActive(true);
+            Debug.Log($"总共完成 {completedCount} 个任务，复原按钮已激活");
+        }
+
+        SaveData();
+        UpdateUI();
+    }
+
+    /// <summary>
     /// 切换Scrum框架阶段图片
     /// </summary>
     /// <param name="stageIndex">阶段序号(从0开始)</param>
