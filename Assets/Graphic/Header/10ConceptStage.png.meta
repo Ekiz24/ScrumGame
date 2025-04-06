@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: 577dc5e0e0b0043969d521891a2e0682
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3707774518416181069
+    second: 11ConceptStage_0
+  - first:
+      213: 2966097501021212608
+    second: 11ConceptStage_1
+  - first:
+      213: 2361819171735822274
+    second: 11ConceptStage_2
+  - first:
+      213: 4482811241065861849
+    second: 11ConceptStage_3
+  - first:
+      213: 7390930675412483803
+    second: 11ConceptStage_4
+  - first:
+      213: -3297068186207701400
+    second: 11ConceptStage_5
+  - first:
+      213: -1286228769768883320
+    second: 11ConceptStage_6
+  - first:
+      213: -1094925130130996928
+    second: 11ConceptStage_7
+  - first:
+      213: -3466140992278072972
+    second: 11ConceptStage_8
+  - first:
+      213: 1230427701787005332
+    second: 11ConceptStage_9
+  - first:
+      213: 339555130552198123
+    second: 11ConceptStage_10
+  - first:
+      213: 5574692487384978544
+    second: 11ConceptStage_11
+  - first:
+      213: -5955953726639832609
+    second: 11ConceptStage_12
+  - first:
+      213: 754103372695428361
+    second: 11ConceptStage_13
+  - first:
+      213: -5753962695308993186
+    second: 11ConceptStage_14
+  - first:
+      213: -3911465061640995009
+    second: 11ConceptStage_15
+  - first:
+      213: -7061949739421481213
+    second: 11ConceptStage_16
+  - first:
+      213: -3579143669876033746
+    second: 11ConceptStage_17
+  - first:
+      213: -5995756849131117095
+    second: 11ConceptStage_18
+  - first:
+      213: -8630563704394753139
+    second: 11ConceptStage_19
+  - first:
+      213: 6559164218369115179
+    second: 11ConceptStage_20
+  - first:
+      213: -1955067100306306938
+    second: 11ConceptStage_21
+  - first:
+      213: 1577106132302549000
+    second: 11ConceptStage_22
+  - first:
+      213: -408214374968257439
+    second: 11ConceptStage_23
+  - first:
+      213: 8844195305544692514
+    second: 11ConceptStage_24
+  - first:
+      213: 2142561690490054997
+    second: 11ConceptStage_25
+  - first:
+      213: 6906997597572460670
+    second: 11ConceptStage_26
+  - first:
+      213: 4046619697039986320
+    second: 11ConceptStage_27
+  - first:
+      213: -92541042846430274
+    second: 11ConceptStage_28
+  - first:
+      213: -843577618259714301
+    second: 11ConceptStage_29
+  - first:
+      213: -745882622864015942
+    second: 11ConceptStage_30
+  - first:
+      213: -3423527782280309678
+    second: 11ConceptStage_31
+  - first:
+      213: 3694700228501769619
+    second: 11ConceptStage_32
+  - first:
+      213: 4107385314549465978
+    second: 11ConceptStage_33
+  - first:
+      213: -700124677059878014
+    second: 11ConceptStage_34
+  - first:
+      213: -2175357526093835068
+    second: 11ConceptStage_35
+  - first:
+      213: -9049744861560746990
+    second: 11ConceptStage_36
+  - first:
+      213: 6328750699497499680
+    second: 11ConceptStage_37
+  - first:
+      213: 4194297510499942539
+    second: 11ConceptStage_38
+  - first:
+      213: 472187046321626298
+    second: 11ConceptStage_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 11ConceptStage_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 912
+        width: 459
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d470175a749a47330800000000000000
+      internalID: 3707774518416181069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_1
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf0b8d46f1b92920800000000000000
+      internalID: 2966097501021212608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_2
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 949
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf5503f50ed6c020800000000000000
+      internalID: 2361819171735822274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_3
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 949
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2dbd2a215263e30800000000000000
+      internalID: 4482811241065861849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_4
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 963
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdebf7b5a4cd19660800000000000000
+      internalID: 7390930675412483803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_5
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 949
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86639d804f57e32d0800000000000000
+      internalID: -3297068186207701400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_6
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88bb906afb5662ee0800000000000000
+      internalID: -1286228769768883320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_7
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041c4e2356b0ec0f0800000000000000
+      internalID: -1094925130130996928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_8
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 949
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47178d5c12bc5efc0800000000000000
+      internalID: -3466140992278072972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_9
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 948
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49190d6c97b531110800000000000000
+      internalID: 1230427701787005332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_10
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 948
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3a93a979756b400800000000000000
+      internalID: 339555130552198123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_11
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074de9208494d5d40800000000000000
+      internalID: 5574692487384978544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_12
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 949
+        width: 12
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd108f044a3385da0800000000000000
+      internalID: -5955953726639832609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_13
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 949
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d5f65a50d177a00800000000000000
+      internalID: 754103372695428361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_14
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d12471a61d520b0800000000000000
+      internalID: -5753962695308993186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_15
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f7981104fa7b9c0800000000000000
+      internalID: -3911465061640995009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_16
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 949
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307ce18b02aeefd90800000000000000
+      internalID: -7061949739421481213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_17
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2773fc9bc3545ec0800000000000000
+      internalID: -3579143669876033746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_18
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 949
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5acef99eacacca0800000000000000
+      internalID: -5995756849131117095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_19
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 948
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bdb2c99041a3880800000000000000
+      internalID: -8630563704394753139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_20
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 948
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24085bca15d60b50800000000000000
+      internalID: 6559164218369115179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_21
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 949
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6888036a4d43ed4e0800000000000000
+      internalID: -1955067100306306938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_22
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 949
+        width: 12
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800dbf4eba103e510800000000000000
+      internalID: 1577106132302549000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_23
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1641fc3503bb55af0800000000000000
+      internalID: -408214374968257439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_24
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 949
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2233b2795c4ecba70800000000000000
+      internalID: 8844195305544692514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_25
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55925077188ebbd10800000000000000
+      internalID: 2142561690490054997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_26
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7078cb58b59adf50800000000000000
+      internalID: 6906997597572460670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_27
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 949
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09eca2fac2b782830800000000000000
+      internalID: 4046619697039986320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_28
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb8efd696a37bef0800000000000000
+      internalID: -92541042846430274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_29
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 963
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fd82b20a20b44f0800000000000000
+      internalID: -843577618259714301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_30
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 949
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdbd04d4b716a5f0800000000000000
+      internalID: -745882622864015942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_31
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2545082ee9f2d70d0800000000000000
+      internalID: -3423527782280309678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_32
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 949
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d076f4846364330800000000000000
+      internalID: 3694700228501769619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_33
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 949
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7380658e2d500930800000000000000
+      internalID: 4107385314549465978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_34
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 948
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2836c5dc058a846f0800000000000000
+      internalID: -700124677059878014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_35
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 948
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c454b50bd39fc1e0800000000000000
+      internalID: -2175357526093835068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_36
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c41cafef8d86280800000000000000
+      internalID: -9049744861560746990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_37
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 949
+        width: 12
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cad83ea3d34d750800000000000000
+      internalID: 6328750699497499680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_38
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8087ab0d53253a30800000000000000
+      internalID: 4194297510499942539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11ConceptStage_39
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc9a8bed9b8d8600800000000000000
+      internalID: 472187046321626298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      11ConceptStage_0: 3707774518416181069
+      11ConceptStage_1: 2966097501021212608
+      11ConceptStage_10: 339555130552198123
+      11ConceptStage_11: 5574692487384978544
+      11ConceptStage_12: -5955953726639832609
+      11ConceptStage_13: 754103372695428361
+      11ConceptStage_14: -5753962695308993186
+      11ConceptStage_15: -3911465061640995009
+      11ConceptStage_16: -7061949739421481213
+      11ConceptStage_17: -3579143669876033746
+      11ConceptStage_18: -5995756849131117095
+      11ConceptStage_19: -8630563704394753139
+      11ConceptStage_2: 2361819171735822274
+      11ConceptStage_20: 6559164218369115179
+      11ConceptStage_21: -1955067100306306938
+      11ConceptStage_22: 1577106132302549000
+      11ConceptStage_23: -408214374968257439
+      11ConceptStage_24: 8844195305544692514
+      11ConceptStage_25: 2142561690490054997
+      11ConceptStage_26: 6906997597572460670
+      11ConceptStage_27: 4046619697039986320
+      11ConceptStage_28: -92541042846430274
+      11ConceptStage_29: -843577618259714301
+      11ConceptStage_3: 4482811241065861849
+      11ConceptStage_30: -745882622864015942
+      11ConceptStage_31: -3423527782280309678
+      11ConceptStage_32: 3694700228501769619
+      11ConceptStage_33: 4107385314549465978
+      11ConceptStage_34: -700124677059878014
+      11ConceptStage_35: -2175357526093835068
+      11ConceptStage_36: -9049744861560746990
+      11ConceptStage_37: 6328750699497499680
+      11ConceptStage_38: 4194297510499942539
+      11ConceptStage_39: 472187046321626298
+      11ConceptStage_4: 7390930675412483803
+      11ConceptStage_5: -3297068186207701400
+      11ConceptStage_6: -1286228769768883320
+      11ConceptStage_7: -1094925130130996928
+      11ConceptStage_8: -3466140992278072972
+      11ConceptStage_9: 1230427701787005332
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

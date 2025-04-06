@@ -1,0 +1,2652 @@
+fileFormatVersion: 2
+guid: a391b8413f1124c1d84e6879355ac43b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5891775492949905172
+    second: 02SprintPlanning_0
+  - first:
+      213: -5801323380067147581
+    second: 02SprintPlanning_1
+  - first:
+      213: 971812979125148490
+    second: 02SprintPlanning_2
+  - first:
+      213: 2694123036079817344
+    second: 02SprintPlanning_3
+  - first:
+      213: 4218079889189820126
+    second: 02SprintPlanning_4
+  - first:
+      213: 227589072495765241
+    second: 02SprintPlanning_5
+  - first:
+      213: 7443756482349085310
+    second: 02SprintPlanning_6
+  - first:
+      213: -7021481842449645290
+    second: 02SprintPlanning_7
+  - first:
+      213: -6147200643683601099
+    second: 02SprintPlanning_8
+  - first:
+      213: -1043453712726936687
+    second: 02SprintPlanning_9
+  - first:
+      213: 2760501195593171886
+    second: 02SprintPlanning_10
+  - first:
+      213: 3667063035932502690
+    second: 02SprintPlanning_11
+  - first:
+      213: -8492199581885427155
+    second: 02SprintPlanning_12
+  - first:
+      213: -137816132947618834
+    second: 02SprintPlanning_13
+  - first:
+      213: 1358050762813853474
+    second: 02SprintPlanning_14
+  - first:
+      213: -2454584136015619852
+    second: 02SprintPlanning_15
+  - first:
+      213: -6651290470756850765
+    second: 02SprintPlanning_16
+  - first:
+      213: 619790163401331543
+    second: 02SprintPlanning_17
+  - first:
+      213: -7660408449086978576
+    second: 02SprintPlanning_18
+  - first:
+      213: -8636200567782353175
+    second: 02SprintPlanning_19
+  - first:
+      213: 5284503106834306664
+    second: 02SprintPlanning_20
+  - first:
+      213: -3155848179070204057
+    second: 02SprintPlanning_21
+  - first:
+      213: -5320808613858948448
+    second: 02SprintPlanning_22
+  - first:
+      213: 8323021423104930470
+    second: 02SprintPlanning_23
+  - first:
+      213: -1859687360881087838
+    second: 02SprintPlanning_24
+  - first:
+      213: 4965616663853249542
+    second: 02SprintPlanning_25
+  - first:
+      213: 5082926988307205655
+    second: 02SprintPlanning_26
+  - first:
+      213: 7449409229347097975
+    second: 02SprintPlanning_27
+  - first:
+      213: -8084134822000265083
+    second: 02SprintPlanning_28
+  - first:
+      213: -1435626287648477099
+    second: 02SprintPlanning_29
+  - first:
+      213: -70674248186286726
+    second: 02SprintPlanning_30
+  - first:
+      213: 3736052837099300380
+    second: 02SprintPlanning_31
+  - first:
+      213: 5035314612567379785
+    second: 02SprintPlanning_32
+  - first:
+      213: 1416281326136049882
+    second: 02SprintPlanning_33
+  - first:
+      213: -2404504678083675140
+    second: 02SprintPlanning_34
+  - first:
+      213: 1031073561980099493
+    second: 02SprintPlanning_35
+  - first:
+      213: -4474113257649975686
+    second: 02SprintPlanning_36
+  - first:
+      213: 4190802437870651835
+    second: 02SprintPlanning_37
+  - first:
+      213: -4562637056142555464
+    second: 02SprintPlanning_38
+  - first:
+      213: 111511621671315856
+    second: 02SprintPlanning_39
+  - first:
+      213: 6545798948081348651
+    second: 02SprintPlanning_40
+  - first:
+      213: -3849171059233546579
+    second: 02SprintPlanning_41
+  - first:
+      213: -1377010657820872903
+    second: 02SprintPlanning_42
+  - first:
+      213: -1013418700444167685
+    second: 02SprintPlanning_43
+  - first:
+      213: -7205037496288418943
+    second: 02SprintPlanning_44
+  - first:
+      213: -3007272444828603252
+    second: 02SprintPlanning_45
+  - first:
+      213: 3295561359750732113
+    second: 02SprintPlanning_46
+  - first:
+      213: -3346274044459657749
+    second: 02SprintPlanning_47
+  - first:
+      213: 4554819875950340664
+    second: 02SprintPlanning_48
+  - first:
+      213: -6445583080345968527
+    second: 02SprintPlanning_49
+  - first:
+      213: -626015872837791882
+    second: 02SprintPlanning_50
+  - first:
+      213: -6238628605179790863
+    second: 02SprintPlanning_51
+  - first:
+      213: 2557698076501167636
+    second: 02SprintPlanning_52
+  - first:
+      213: 7629326014194167235
+    second: 02SprintPlanning_53
+  - first:
+      213: -6766547344666523822
+    second: 02SprintPlanning_54
+  - first:
+      213: 6261429798741051665
+    second: 02SprintPlanning_55
+  - first:
+      213: -4886191437085783299
+    second: 02SprintPlanning_56
+  - first:
+      213: 181434384401812821
+    second: 02SprintPlanning_57
+  - first:
+      213: 4667914035148006449
+    second: 02SprintPlanning_58
+  - first:
+      213: 2472187105320793399
+    second: 02SprintPlanning_59
+  - first:
+      213: 6535538075894480630
+    second: 02SprintPlanning_60
+  - first:
+      213: 7527468752907659047
+    second: 02SprintPlanning_61
+  - first:
+      213: -8788532802422041897
+    second: 02SprintPlanning_62
+  - first:
+      213: 8542032843932176499
+    second: 02SprintPlanning_63
+  - first:
+      213: 1004277685034357806
+    second: 02SprintPlanning_64
+  - first:
+      213: -4985138428052864622
+    second: 02SprintPlanning_65
+  - first:
+      213: -7664707355659862097
+    second: 02SprintPlanning_66
+  - first:
+      213: -6637614406262521559
+    second: 02SprintPlanning_67
+  - first:
+      213: 3659034914127661167
+    second: 02SprintPlanning_68
+  - first:
+      213: -1070455466322941490
+    second: 02SprintPlanning_69
+  - first:
+      213: -7769716749292202158
+    second: 02SprintPlanning_70
+  - first:
+      213: -5152461162121199557
+    second: 02SprintPlanning_71
+  - first:
+      213: 2219295681746970635
+    second: 02SprintPlanning_72
+  - first:
+      213: 6852470310213835592
+    second: 02SprintPlanning_73
+  - first:
+      213: -5051576982062352080
+    second: 02SprintPlanning_74
+  - first:
+      213: 4856707892191333684
+    second: 02SprintPlanning_75
+  - first:
+      213: -7005971539156248258
+    second: 02SprintPlanning_76
+  - first:
+      213: 2785092430658413393
+    second: 02SprintPlanning_77
+  - first:
+      213: 7284820876186756404
+    second: 02SprintPlanning_78
+  - first:
+      213: 3699349357374505428
+    second: 02SprintPlanning_79
+  - first:
+      213: -4774642036639960142
+    second: 02SprintPlanning_80
+  - first:
+      213: -7006766554622158867
+    second: 02SprintPlanning_81
+  - first:
+      213: 3784182335897481454
+    second: 02SprintPlanning_82
+  - first:
+      213: 3836293077576731518
+    second: 02SprintPlanning_83
+  - first:
+      213: -7330444048361025761
+    second: 02SprintPlanning_84
+  - first:
+      213: 5697006859305306798
+    second: 02SprintPlanning_85
+  - first:
+      213: -5290329127468529552
+    second: 02SprintPlanning_86
+  - first:
+      213: 5529187820677622525
+    second: 02SprintPlanning_87
+  - first:
+      213: 4067474562031765464
+    second: 02SprintPlanning_88
+  - first:
+      213: -4506929888278759244
+    second: 02SprintPlanning_89
+  - first:
+      213: -4904209743089367580
+    second: 02SprintPlanning_90
+  - first:
+      213: -7067793003108342737
+    second: 02SprintPlanning_91
+  - first:
+      213: -4917766476118579820
+    second: 02SprintPlanning_92
+  - first:
+      213: 7184401620555124309
+    second: 02SprintPlanning_93
+  - first:
+      213: -2512038382308478157
+    second: 02SprintPlanning_94
+  - first:
+      213: 2761582698708469948
+    second: 02SprintPlanning_95
+  - first:
+      213: -1305946678137365897
+    second: 02SprintPlanning_96
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 02SprintPlanning_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f81a9489ac3c150800000000000000
+      internalID: 5891775492949905172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0edef5f1f8d7fa0800000000000000
+      internalID: -5801323380067147581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b5ed071c29c7d00800000000000000
+      internalID: 971812979125148490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0820cb290a2736520800000000000000
+      internalID: 2694123036079817344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 981
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6d0659f41a98a30800000000000000
+      internalID: 4218079889189820126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 981
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6eedc3e0f882300800000000000000
+      internalID: 227589072495765241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72bdecf4198d4760800000000000000
+      internalID: 7443756482349085310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_7
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 946
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6110fe7377fae8e90800000000000000
+      internalID: -7021481842449645290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_8
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 919
+        width: 159
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535bf267591c0baa0800000000000000
+      internalID: -6147200643683601099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_9
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 946
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19339517068e481f0800000000000000
+      internalID: -1043453712726936687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_10
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea34f5d26354f4620800000000000000
+      internalID: 2760501195593171886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_11
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 981
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aae8b9f66604e230800000000000000
+      internalID: 3667063035932502690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_12
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d229fff4975a52a80800000000000000
+      internalID: -8492199581885427155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_13
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 982
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3d65f05f0661ef0800000000000000
+      internalID: -137816132947618834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_14
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fc77839f3c8d210800000000000000
+      internalID: 1358050762813853474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_15
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8da75bbb09fedd0800000000000000
+      internalID: -2454584136015619852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_16
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 946
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3e8909e8ed1b3a0800000000000000
+      internalID: -6651290470756850765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_17
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75351dcaedfe99800800000000000000
+      internalID: 619790163401331543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_18
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 982
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f505c52a13c0b590800000000000000
+      internalID: -7660408449086978576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_19
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 982
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e65e44175d062880800000000000000
+      internalID: -8636200567782353175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_20
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 982
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8669e41c393565940800000000000000
+      internalID: 5284503106834306664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_21
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 982
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76705713dcc2434d0800000000000000
+      internalID: -3155848179070204057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_22
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 946
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa491da1c0b826b0800000000000000
+      internalID: -5320808613858948448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_23
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2b22613ef418370800000000000000
+      internalID: 8323021423104930470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_24
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 981
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa2665c2301136e0800000000000000
+      internalID: -1859687360881087838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_25
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604bbbbfb0a69e440800000000000000
+      internalID: 4965616663853249542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_26
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 982
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e0c455a2f2a8640800000000000000
+      internalID: 5082926988307205655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_27
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d00c5b93e916760800000000000000
+      internalID: 7449409229347097975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_28
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588fe4206326fcf80800000000000000
+      internalID: -8084134822000265083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_29
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 946
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550ff766f71a31ce0800000000000000
+      internalID: -1435626287648477099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_30
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7da61e452ae40ff0800000000000000
+      internalID: -70674248186286726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_31
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 981
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16e469c24029d330800000000000000
+      internalID: 3736052837099300380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_32
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f896e36f701e540800000000000000
+      internalID: 5035314612567379785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_33
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 982
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0cb52cc54a7a310800000000000000
+      internalID: 1416281326136049882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_34
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbbe022cbb71aed0800000000000000
+      internalID: -2404504678083675140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_35
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abde1711fb1f4e00800000000000000
+      internalID: 1031073561980099493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_36
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 951
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e48e072b1c8e1c0800000000000000
+      internalID: -4474113257649975686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_37
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb90f190d98b82a30800000000000000
+      internalID: 4190802437870651835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_38
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6c69575c14ea0c0800000000000000
+      internalID: -4562637056142555464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_39
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099eb06aa3b2c8100800000000000000
+      internalID: 111511621671315856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_40
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20b38f467957da50800000000000000
+      internalID: 6545798948081348651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_41
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 981
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae9baeb05ff49ac0800000000000000
+      internalID: -3849171059233546579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_42
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 981
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93fe8a83a10e3ece0800000000000000
+      internalID: -1377010657820872903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_43
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1994faf0d9fe1f0800000000000000
+      internalID: -1013418700444167685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_44
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183eb503290920c90800000000000000
+      internalID: -7205037496288418943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_45
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 937
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cab2705a50446d0800000000000000
+      internalID: -3007272444828603252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_46
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 936
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1591277989f2cbd20800000000000000
+      internalID: 3295561359750732113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_47
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 937
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be55fd26c75af81d0800000000000000
+      internalID: -3346274044459657749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_48
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 937
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83aa8e17b88f53f30800000000000000
+      internalID: 4554819875950340664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_49
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170e5bda650bc86a0800000000000000
+      internalID: -6445583080345968527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_50
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f4fb361e1ff47f0800000000000000
+      internalID: -626015872837791882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_51
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9faa65650fb69a0800000000000000
+      internalID: -6238628605179790863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_52
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 937
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e4d8c69d4ce7320800000000000000
+      internalID: 2557698076501167636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_53
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 936
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cda0b7869fc0e960800000000000000
+      internalID: 7629326014194167235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_54
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 937
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2570a4d6a056812a0800000000000000
+      internalID: -6766547344666523822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_55
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 937
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119810c3a3115e650800000000000000
+      internalID: 6261429798741051665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_56
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa42ffa6c2c03cb0800000000000000
+      internalID: -4886191437085783299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_57
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55dcf408c95948200800000000000000
+      internalID: 181434384401812821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_58
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134ae035513c7c040800000000000000
+      internalID: 4667914035148006449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_59
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 936
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73572f6f219fe4220800000000000000
+      internalID: 2472187105320793399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_60
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 936
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fefab5d045e2ba50800000000000000
+      internalID: 6535538075894480630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_61
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 937
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727e9e2d2f0f67860800000000000000
+      internalID: 7527468752907659047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_62
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 937
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d214c6dafbd80680800000000000000
+      internalID: -8788532802422041897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_63
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 934
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3701c4a2d956b8670800000000000000
+      internalID: 8542032843932176499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_64
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 936
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e241350db39efed00800000000000000
+      internalID: 1004277685034357806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_65
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 934
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29182c7130b31dab0800000000000000
+      internalID: -4985138428052864622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_66
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 936
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faff196f44d71a590800000000000000
+      internalID: -7664707355659862097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_67
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 937
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92105b67dd472e3a0800000000000000
+      internalID: -6637614406262521559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_68
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 937
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68c4553ed087c230800000000000000
+      internalID: 3659034914127661167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_69
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 937
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec922f5cc6af421f0800000000000000
+      internalID: -1070455466322941490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_70
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 936
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257190148cb6c2490800000000000000
+      internalID: -7769716749292202158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_71
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 937
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3005c83fd7ce78b0800000000000000
+      internalID: -5152461162121199557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_72
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 936
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08261a0aa58cce10800000000000000
+      internalID: 2219295681746970635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_73
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 937
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bd432f07dd81f50800000000000000
+      internalID: 6852470310213835592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_74
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 937
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03932accf7135e9b0800000000000000
+      internalID: -5051576982062352080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_75
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 937
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d86e3981e766340800000000000000
+      internalID: 4856707892191333684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_76
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 936
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39581e110ac5ce90800000000000000
+      internalID: -7005971539156248258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_77
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 937
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15326044fc2a6a620800000000000000
+      internalID: 2785092430658413393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_78
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43526718df1e81560800000000000000
+      internalID: 7284820876186756404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_79
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1806af3aab65330800000000000000
+      internalID: 3699349357374505428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_80
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 937
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b37d646d501dbdb0800000000000000
+      internalID: -4774642036639960142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_81
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 937
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de798a721f6f2ce90800000000000000
+      internalID: -7006766554622158867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_82
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 936
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee03a78f8cd148430800000000000000
+      internalID: 3784182335897481454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_83
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 937
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b404f7a304d3530800000000000000
+      internalID: 3836293077576731518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_84
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 936
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f8093f9f7054a90800000000000000
+      internalID: -7330444048361025761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_85
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa4bd3fd85df0f40800000000000000
+      internalID: 5697006859305306798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_86
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 937
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078065c10b9f496b0800000000000000
+      internalID: -5290329127468529552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_87
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 936
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfae7eb270f9bbc40800000000000000
+      internalID: 5529187820677622525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_88
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 937
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d747d25092927830800000000000000
+      internalID: 4067474562031765464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_89
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 936
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8bd85352b2471c0800000000000000
+      internalID: -4506929888278759244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_90
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 937
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e50627e83fb0fbb0800000000000000
+      internalID: -4904209743089367580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_91
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 937
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f246cbfd5b72aed90800000000000000
+      internalID: -7067793003108342737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_92
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 937
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495a0a6027590cbb0800000000000000
+      internalID: -4917766476118579820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_93
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 937
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ecde4953f14b360800000000000000
+      internalID: 7184401620555124309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_94
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3333b509662732dd0800000000000000
+      internalID: -2512038382308478157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_95
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 937
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8026e35dc135620800000000000000
+      internalID: 2761582698708469948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02SprintPlanning_96
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 937
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a550a5a6850ede0800000000000000
+      internalID: -1305946678137365897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      02SprintPlanning_0: 5891775492949905172
+      02SprintPlanning_1: -5801323380067147581
+      02SprintPlanning_10: 2760501195593171886
+      02SprintPlanning_11: 3667063035932502690
+      02SprintPlanning_12: -8492199581885427155
+      02SprintPlanning_13: -137816132947618834
+      02SprintPlanning_14: 1358050762813853474
+      02SprintPlanning_15: -2454584136015619852
+      02SprintPlanning_16: -6651290470756850765
+      02SprintPlanning_17: 619790163401331543
+      02SprintPlanning_18: -7660408449086978576
+      02SprintPlanning_19: -8636200567782353175
+      02SprintPlanning_2: 971812979125148490
+      02SprintPlanning_20: 5284503106834306664
+      02SprintPlanning_21: -3155848179070204057
+      02SprintPlanning_22: -5320808613858948448
+      02SprintPlanning_23: 8323021423104930470
+      02SprintPlanning_24: -1859687360881087838
+      02SprintPlanning_25: 4965616663853249542
+      02SprintPlanning_26: 5082926988307205655
+      02SprintPlanning_27: 7449409229347097975
+      02SprintPlanning_28: -8084134822000265083
+      02SprintPlanning_29: -1435626287648477099
+      02SprintPlanning_3: 2694123036079817344
+      02SprintPlanning_30: -70674248186286726
+      02SprintPlanning_31: 3736052837099300380
+      02SprintPlanning_32: 5035314612567379785
+      02SprintPlanning_33: 1416281326136049882
+      02SprintPlanning_34: -2404504678083675140
+      02SprintPlanning_35: 1031073561980099493
+      02SprintPlanning_36: -4474113257649975686
+      02SprintPlanning_37: 4190802437870651835
+      02SprintPlanning_38: -4562637056142555464
+      02SprintPlanning_39: 111511621671315856
+      02SprintPlanning_4: 4218079889189820126
+      02SprintPlanning_40: 6545798948081348651
+      02SprintPlanning_41: -3849171059233546579
+      02SprintPlanning_42: -1377010657820872903
+      02SprintPlanning_43: -1013418700444167685
+      02SprintPlanning_44: -7205037496288418943
+      02SprintPlanning_45: -3007272444828603252
+      02SprintPlanning_46: 3295561359750732113
+      02SprintPlanning_47: -3346274044459657749
+      02SprintPlanning_48: 4554819875950340664
+      02SprintPlanning_49: -6445583080345968527
+      02SprintPlanning_5: 227589072495765241
+      02SprintPlanning_50: -626015872837791882
+      02SprintPlanning_51: -6238628605179790863
+      02SprintPlanning_52: 2557698076501167636
+      02SprintPlanning_53: 7629326014194167235
+      02SprintPlanning_54: -6766547344666523822
+      02SprintPlanning_55: 6261429798741051665
+      02SprintPlanning_56: -4886191437085783299
+      02SprintPlanning_57: 181434384401812821
+      02SprintPlanning_58: 4667914035148006449
+      02SprintPlanning_59: 2472187105320793399
+      02SprintPlanning_6: 7443756482349085310
+      02SprintPlanning_60: 6535538075894480630
+      02SprintPlanning_61: 7527468752907659047
+      02SprintPlanning_62: -8788532802422041897
+      02SprintPlanning_63: 8542032843932176499
+      02SprintPlanning_64: 1004277685034357806
+      02SprintPlanning_65: -4985138428052864622
+      02SprintPlanning_66: -7664707355659862097
+      02SprintPlanning_67: -6637614406262521559
+      02SprintPlanning_68: 3659034914127661167
+      02SprintPlanning_69: -1070455466322941490
+      02SprintPlanning_7: -7021481842449645290
+      02SprintPlanning_70: -7769716749292202158
+      02SprintPlanning_71: -5152461162121199557
+      02SprintPlanning_72: 2219295681746970635
+      02SprintPlanning_73: 6852470310213835592
+      02SprintPlanning_74: -5051576982062352080
+      02SprintPlanning_75: 4856707892191333684
+      02SprintPlanning_76: -7005971539156248258
+      02SprintPlanning_77: 2785092430658413393
+      02SprintPlanning_78: 7284820876186756404
+      02SprintPlanning_79: 3699349357374505428
+      02SprintPlanning_8: -6147200643683601099
+      02SprintPlanning_80: -4774642036639960142
+      02SprintPlanning_81: -7006766554622158867
+      02SprintPlanning_82: 3784182335897481454
+      02SprintPlanning_83: 3836293077576731518
+      02SprintPlanning_84: -7330444048361025761
+      02SprintPlanning_85: 5697006859305306798
+      02SprintPlanning_86: -5290329127468529552
+      02SprintPlanning_87: 5529187820677622525
+      02SprintPlanning_88: 4067474562031765464
+      02SprintPlanning_89: -4506929888278759244
+      02SprintPlanning_9: -1043453712726936687
+      02SprintPlanning_90: -4904209743089367580
+      02SprintPlanning_91: -7067793003108342737
+      02SprintPlanning_92: -4917766476118579820
+      02SprintPlanning_93: 7184401620555124309
+      02SprintPlanning_94: -2512038382308478157
+      02SprintPlanning_95: 2761582698708469948
+      02SprintPlanning_96: -1305946678137365897
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

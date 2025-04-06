@@ -32,6 +32,9 @@ public class GameManager : MonoBehaviour
     public Button completeButton;
     public Button resetButton;  // 新增复原按钮引用
     public Button planningButton; // 新增规划按钮引用
+    public Image scrumFrameworkStageImage;
+    public Image developmentStageImage;
+    public Sprite[] stageImages; // Scrum框架阶段的图片数组
 
     public GameObject itemPrefab;
 
@@ -415,5 +418,84 @@ public class GameManager : MonoBehaviour
     public bool IsInPlanningMode()
     {
         return isInPlanningMode;
+    }
+
+    /// <summary>
+    /// 筛选ProductBacklog，检查特定任务是否为无优先级
+    /// 如果特定任务不在无优先级，则会扣除性能分数
+    /// </summary>
+    /// <returns>扣除的分数</returns>
+    public void SelectProductBacklog()
+    {
+        // 需要检查的任务列表
+        string[] tasksToCheck = { "Hunting System", "Dance Floor Construction", "Room Cleaning" };
+        int deductionPoints = 0;
+
+        foreach (string taskId in tasksToCheck)
+        {
+            ItemData item = gameData.items.Find(i => i.itemId == taskId);
+            if (item != null)
+            {
+                if (item.priority != "无优先级")
+                {
+                    // 如果任务不是无优先级，扣1分
+                    deductionPoints++;
+                    Debug.Log($"任务 '{taskId}' 不在无优先级中，扣1分表现分");
+                }
+                else
+                {
+                    Debug.Log($"任务 '{taskId}' 正确地在无优先级中");
+                }
+            }
+            else
+            {
+                Debug.LogWarning($"未找到任务 '{taskId}'");
+            }
+        }
+
+        // 如果有扣分，更新性能分数
+        if (deductionPoints > 0)
+        {
+            UpdatePerformanceScore(-deductionPoints);
+            Debug.Log($"总共扣除 {deductionPoints} 分表现分，当前表现分：{gameData.performanceScore}");
+        }
+    }
+
+    /// <summary>
+    /// 切换Scrum框架阶段图片
+    /// </summary>
+    /// <param name="stageIndex">阶段序号(从0开始)</param>
+    public void ChangeScrumFrameworkStage(int stageIndex)
+    {
+        // 检查索引是否有效
+        if (stageIndex >= 0 && stageIndex < stageImages.Length)
+        {
+            // 设置图片
+            scrumFrameworkStageImage.sprite = stageImages[stageIndex];
+            Debug.Log($"已切换Scrum框架阶段图片到第{stageIndex}张");
+        }
+        else
+        {
+            Debug.LogWarning($"无效的阶段序号: {stageIndex}, 有效范围: 0-{stageImages.Length - 1}");
+        }
+    }
+
+    /// <summary>
+    /// 切换开发阶段图片
+    /// </summary>
+    /// <param name="stageIndex">阶段序号(从0开始)</param>
+    public void ChangeDevelopmentStage(int stageIndex)
+    {
+        // 检查索引是否有效
+        if (stageIndex >= 0 && stageIndex < stageImages.Length)
+        {
+            // 设置图片
+            developmentStageImage.sprite = stageImages[stageIndex];
+            Debug.Log($"已切换开发阶段图片到第{stageIndex}张");
+        }
+        else
+        {
+            Debug.LogWarning($"无效的阶段序号: {stageIndex}, 有效范围: 0-{stageImages.Length - 1}");
+        }
     }
 }

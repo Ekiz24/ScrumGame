@@ -1,0 +1,2964 @@
+fileFormatVersion: 2
+guid: 3f534ef5f4e2b4c3884856d5260b6f9c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6170244057970120200
+    second: 04DailyWork_0
+  - first:
+      213: 6721150930825763903
+    second: 04DailyWork_1
+  - first:
+      213: 5748702396315104075
+    second: 04DailyWork_2
+  - first:
+      213: -869457827767271026
+    second: 04DailyWork_3
+  - first:
+      213: -6306976802338340236
+    second: 04DailyWork_4
+  - first:
+      213: -6674693124350055295
+    second: 04DailyWork_5
+  - first:
+      213: -4087715659296755598
+    second: 04DailyWork_6
+  - first:
+      213: -4503554095645959809
+    second: 04DailyWork_7
+  - first:
+      213: 7913083084766565930
+    second: 04DailyWork_8
+  - first:
+      213: -1106317622270567128
+    second: 04DailyWork_9
+  - first:
+      213: -8066939975979962968
+    second: 04DailyWork_10
+  - first:
+      213: 4811290080677264781
+    second: 04DailyWork_11
+  - first:
+      213: -6304646373523890879
+    second: 04DailyWork_12
+  - first:
+      213: 5901799846090988003
+    second: 04DailyWork_13
+  - first:
+      213: 8867968419908427650
+    second: 04DailyWork_14
+  - first:
+      213: -6957775068280349401
+    second: 04DailyWork_15
+  - first:
+      213: -7129338952920120602
+    second: 04DailyWork_16
+  - first:
+      213: -2002881288663742193
+    second: 04DailyWork_17
+  - first:
+      213: -5441354652183731937
+    second: 04DailyWork_18
+  - first:
+      213: 2455216512745456547
+    second: 04DailyWork_19
+  - first:
+      213: -7690095333457271779
+    second: 04DailyWork_20
+  - first:
+      213: 2039086383119943345
+    second: 04DailyWork_21
+  - first:
+      213: -135110669485824344
+    second: 04DailyWork_22
+  - first:
+      213: 8988089232491667121
+    second: 04DailyWork_23
+  - first:
+      213: 7041870358715207275
+    second: 04DailyWork_24
+  - first:
+      213: -3056496053574868162
+    second: 04DailyWork_25
+  - first:
+      213: -4716751526308352570
+    second: 04DailyWork_26
+  - first:
+      213: 9205008218070736498
+    second: 04DailyWork_27
+  - first:
+      213: 6167574965181614774
+    second: 04DailyWork_28
+  - first:
+      213: -173610069777493514
+    second: 04DailyWork_29
+  - first:
+      213: 7921479948829720205
+    second: 04DailyWork_30
+  - first:
+      213: -8423311568256380305
+    second: 04DailyWork_31
+  - first:
+      213: 4514192832175612263
+    second: 04DailyWork_32
+  - first:
+      213: 7656911687773651009
+    second: 04DailyWork_33
+  - first:
+      213: -3882970502505234132
+    second: 04DailyWork_34
+  - first:
+      213: 2362875232793621752
+    second: 04DailyWork_35
+  - first:
+      213: 4426862312745759809
+    second: 04DailyWork_36
+  - first:
+      213: -2456102462392665577
+    second: 04DailyWork_37
+  - first:
+      213: 4602207746837916471
+    second: 04DailyWork_38
+  - first:
+      213: 9123131644969810723
+    second: 04DailyWork_39
+  - first:
+      213: -4109676252204815661
+    second: 04DailyWork_40
+  - first:
+      213: 7196863620305490743
+    second: 04DailyWork_41
+  - first:
+      213: 4898266421602828859
+    second: 04DailyWork_42
+  - first:
+      213: -4553171577756954636
+    second: 04DailyWork_43
+  - first:
+      213: -2146333165995535718
+    second: 04DailyWork_44
+  - first:
+      213: -2809311243321362449
+    second: 04DailyWork_45
+  - first:
+      213: -3734502317812196845
+    second: 04DailyWork_46
+  - first:
+      213: -4637304265070833973
+    second: 04DailyWork_47
+  - first:
+      213: 6594906320625939710
+    second: 04DailyWork_48
+  - first:
+      213: -4544076813699388326
+    second: 04DailyWork_49
+  - first:
+      213: 7826276272856291187
+    second: 04DailyWork_50
+  - first:
+      213: 3007825465806838655
+    second: 04DailyWork_51
+  - first:
+      213: -1570142189778839736
+    second: 04DailyWork_52
+  - first:
+      213: 4331842353659266107
+    second: 04DailyWork_53
+  - first:
+      213: -4197419564401956420
+    second: 04DailyWork_54
+  - first:
+      213: 1114733432007851143
+    second: 04DailyWork_55
+  - first:
+      213: -3300700195828029282
+    second: 04DailyWork_56
+  - first:
+      213: -5470397079928219183
+    second: 04DailyWork_57
+  - first:
+      213: 3949109651000555059
+    second: 04DailyWork_58
+  - first:
+      213: 692821107257633878
+    second: 04DailyWork_59
+  - first:
+      213: 1167063976991611092
+    second: 04DailyWork_60
+  - first:
+      213: 5506204692459593326
+    second: 04DailyWork_61
+  - first:
+      213: -1132903399993395316
+    second: 04DailyWork_62
+  - first:
+      213: -7789328888744737288
+    second: 04DailyWork_63
+  - first:
+      213: -8393723960023977323
+    second: 04DailyWork_64
+  - first:
+      213: -2148000334149215810
+    second: 04DailyWork_65
+  - first:
+      213: 9073318526963219130
+    second: 04DailyWork_66
+  - first:
+      213: -3728250804163486345
+    second: 04DailyWork_67
+  - first:
+      213: -8276560498792305065
+    second: 04DailyWork_68
+  - first:
+      213: -2746611361313769632
+    second: 04DailyWork_69
+  - first:
+      213: -6428252763268636493
+    second: 04DailyWork_70
+  - first:
+      213: 6411359902626712129
+    second: 04DailyWork_71
+  - first:
+      213: 3635447208349566853
+    second: 04DailyWork_72
+  - first:
+      213: -3770290216498275872
+    second: 04DailyWork_73
+  - first:
+      213: -2395890618414407011
+    second: 04DailyWork_74
+  - first:
+      213: -6297549642661640880
+    second: 04DailyWork_75
+  - first:
+      213: -1834863060972228595
+    second: 04DailyWork_76
+  - first:
+      213: -6756226107795881187
+    second: 04DailyWork_77
+  - first:
+      213: -2189471421448941172
+    second: 04DailyWork_78
+  - first:
+      213: -2081830457431688361
+    second: 04DailyWork_79
+  - first:
+      213: 4241935872025433767
+    second: 04DailyWork_80
+  - first:
+      213: 7175993039807632192
+    second: 04DailyWork_81
+  - first:
+      213: 6583190147321666251
+    second: 04DailyWork_82
+  - first:
+      213: 7143583700175395432
+    second: 04DailyWork_83
+  - first:
+      213: -7235347862891874066
+    second: 04DailyWork_84
+  - first:
+      213: 3108285919058084834
+    second: 04DailyWork_85
+  - first:
+      213: -352663750476610448
+    second: 04DailyWork_86
+  - first:
+      213: 7997970021111525340
+    second: 04DailyWork_87
+  - first:
+      213: -3912796986739230081
+    second: 04DailyWork_88
+  - first:
+      213: 2218353712060392341
+    second: 04DailyWork_89
+  - first:
+      213: 1111789159725104274
+    second: 04DailyWork_90
+  - first:
+      213: 7359346363723766996
+    second: 04DailyWork_91
+  - first:
+      213: -2012227186986560328
+    second: 04DailyWork_92
+  - first:
+      213: -3084569566554274127
+    second: 04DailyWork_93
+  - first:
+      213: -4663825856112011340
+    second: 04DailyWork_94
+  - first:
+      213: -5450509825089622106
+    second: 04DailyWork_95
+  - first:
+      213: -8900777265581078926
+    second: 04DailyWork_96
+  - first:
+      213: 4662807963219840186
+    second: 04DailyWork_97
+  - first:
+      213: -3097587795703499466
+    second: 04DailyWork_98
+  - first:
+      213: 5084046490796340996
+    second: 04DailyWork_99
+  - first:
+      213: 6240270928714304525
+    second: 04DailyWork_100
+  - first:
+      213: -2710909680088672405
+    second: 04DailyWork_101
+  - first:
+      213: -4868389911658095585
+    second: 04DailyWork_102
+  - first:
+      213: -166309155033394965
+    second: 04DailyWork_103
+  - first:
+      213: -1311889848149129201
+    second: 04DailyWork_104
+  - first:
+      213: 2218572047937967414
+    second: 04DailyWork_105
+  - first:
+      213: 7189109472264018639
+    second: 04DailyWork_106
+  - first:
+      213: -3610928757096201208
+    second: 04DailyWork_107
+  - first:
+      213: -2292825788804674825
+    second: 04DailyWork_108
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 04DailyWork_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80616c4874c11a550800000000000000
+      internalID: 6170244057970120200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cd7a15923564d50800000000000000
+      internalID: 6721150930825763903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b437ccb1f5e77cf40800000000000000
+      internalID: 5748702396315104075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81cfb456b01fe3f0800000000000000
+      internalID: -869457827767271026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 981
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4728ef9930e1978a0800000000000000
+      internalID: -6306976802338340236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 981
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c6f5aa7f9be53a0800000000000000
+      internalID: -6674693124350055295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270b0d8f3448547c0800000000000000
+      internalID: -4087715659296755598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_7
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 946
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79544e29692081c0800000000000000
+      internalID: -4503554095645959809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_8
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 982
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26d9a9e32be0dd60800000000000000
+      internalID: 7913083084766565930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_9
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 981
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ddecbebf195a0f0800000000000000
+      internalID: -1106317622270567128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_10
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ade05315d87c0090800000000000000
+      internalID: -8066939975979962968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_11
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 982
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8df02a46d225c240800000000000000
+      internalID: 4811290080677264781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_12
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d57a7d6856188a0800000000000000
+      internalID: -6304646373523890879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_13
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e955b1e0b767e150800000000000000
+      internalID: 5901799846090988003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_14
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 946
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f160c1b4a511b70800000000000000
+      internalID: 8867968419908427650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_15
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d94147074017f90800000000000000
+      internalID: -6957775068280349401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_16
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 981
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e247d3ceff7f0d90800000000000000
+      internalID: -7129338952920120602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_17
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09cbe564165434e0800000000000000
+      internalID: -2002881288663742193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_18
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 982
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f116babf5cc6c74b0800000000000000
+      internalID: -5441354652183731937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_19
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3cdd8f86ea21220800000000000000
+      internalID: 2455216512745456547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_20
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14e360c90b474590800000000000000
+      internalID: -7690095333457271779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_21
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 934
+        width: 148
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6433c034a4c4c10800000000000000
+      internalID: 2039086383119943345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_22
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6aeebdf8dff1ef0800000000000000
+      internalID: -135110669485824344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_23
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 982
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bedd28398b1cbc70800000000000000
+      internalID: 8988089232491667121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_24
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 982
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e829528cfb9b160800000000000000
+      internalID: 7041870358715207275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_25
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 982
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33694588052595d0800000000000000
+      internalID: -3056496053574868162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_26
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 982
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdeb9c2a7bba8eb0800000000000000
+      internalID: -4716751526308352570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_27
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 946
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e58a04432cebf70800000000000000
+      internalID: 9205008218070736498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_28
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba0e3de0c0a79550800000000000000
+      internalID: 6167574965181614774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_29
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 981
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f15b75bf86379df0800000000000000
+      internalID: -173610069777493514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_30
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8eff5d2b00ceed60800000000000000
+      internalID: 7921479948829720205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_31
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 982
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62d3add1c26a1b80800000000000000
+      internalID: -8423311568256380305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_32
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7612171b672a5ae30800000000000000
+      internalID: 4514192832175612263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_33
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140094aac90d24a60800000000000000
+      internalID: 7656911687773651009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_34
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 946
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c210bdc96eaec1ac0800000000000000
+      internalID: -3882970502505234132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_35
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f47b33518e9ac020800000000000000
+      internalID: 2362875232793621752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_36
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 981
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14476c4a1df5f6d30800000000000000
+      internalID: 4426862312745759809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_37
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a7f1dc2db2aedd0800000000000000
+      internalID: -2456102462392665577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_38
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 982
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b23dcef835edf30800000000000000
+      internalID: 4602207746837916471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_39
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bfc8905efdb9e70800000000000000
+      internalID: 9123131644969810723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_40
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da297df83f77f6c0800000000000000
+      internalID: -4109676252204815661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_41
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 951
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7339d31055560e360800000000000000
+      internalID: 7196863620305490743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_42
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b324cdabb532af340800000000000000
+      internalID: 4898266421602828859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_43
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff4462e292efc0c0800000000000000
+      internalID: -4553171577756954636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_44
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9252377b51b632e0800000000000000
+      internalID: -2146333165995535718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_45
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 982
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7b15efe425309d0800000000000000
+      internalID: -2809311243321362449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_46
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 981
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a5eed9de16c2cc0800000000000000
+      internalID: -3734502317812196845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_47
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 981
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce8c05275cf4afb0800000000000000
+      internalID: -4637304265070833973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_48
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 982
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef433e77b50d58b50800000000000000
+      internalID: 6594906320625939710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_49
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ceb57a63230f0c0800000000000000
+      internalID: -4544076813699388326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_50
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 937
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377daa50ec48c9c60800000000000000
+      internalID: 7826276272856291187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 936
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b5ac33351fdb920800000000000000
+      internalID: 3007825465806838655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_52
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 937
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847d0635ffbb53ae0800000000000000
+      internalID: -1570142189778839736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_53
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 937
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b344ad86babcd1c30800000000000000
+      internalID: 4331842353659266107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_54
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9eb822525cfb5c0800000000000000
+      internalID: -4197419564401956420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_55
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c741a7624587f00800000000000000
+      internalID: 1114733432007851143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_56
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98ab95e8ae8132d0800000000000000
+      internalID: -3300700195828029282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_57
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 937
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d95b86d6de3514b0800000000000000
+      internalID: -5470397079928219183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_58
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 937
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33674f6ed4e0ec630800000000000000
+      internalID: 3949109651000555059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_59
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cebf650256d9900800000000000000
+      internalID: 692821107257633878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_60
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 937
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d85db2f08e323010800000000000000
+      internalID: 1167063976991611092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_61
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 937
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e94a2aef7f96c40800000000000000
+      internalID: 5506204692459593326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_62
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 937
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87bf8e2c5e1740f0800000000000000
+      internalID: -1132903399993395316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_63
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f58ea335aeb6e390800000000000000
+      internalID: -7789328888744737288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_64
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592f51cb780838b80800000000000000
+      internalID: -8393723960023977323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_65
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 937
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb99d91a315c032e0800000000000000
+      internalID: -2148000334149215810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_66
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 936
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abafc95b027eaed70800000000000000
+      internalID: 9073318526963219130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_67
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 937
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d554095a7924cc0800000000000000
+      internalID: -3728250804163486345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_68
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 937
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e6473d310c32d80800000000000000
+      internalID: -8276560498792305065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_69
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06737d0e48312e9d0800000000000000
+      internalID: -2746611361313769632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_70
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b023fe8b224ac6a0800000000000000
+      internalID: -6428252763268636493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_71
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 936
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a8f33dcd9b9f850800000000000000
+      internalID: 6411359902626712129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_72
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 936
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5878c5d79f3b37230800000000000000
+      internalID: 3635447208349566853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_73
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 937
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e95d71260d3dabc0800000000000000
+      internalID: -3770290216498275872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_74
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 937
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92e7b03d2610ced0800000000000000
+      internalID: -2395890618414407011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_75
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 934
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055c3c147fb9a98a0800000000000000
+      internalID: -6297549642661640880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_76
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 936
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00b34f74c14986e0800000000000000
+      internalID: -1834863060972228595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_77
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 934
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d134b96a6201d32a0800000000000000
+      internalID: -6756226107795881187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_78
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 936
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c819aaea75f6d91e0800000000000000
+      internalID: -2189471421448941172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_79
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 937
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bf13e9a3adb13e0800000000000000
+      internalID: -2081830457431688361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_80
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 937
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6101c63326eda30800000000000000
+      internalID: 4241935872025433767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_81
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 937
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043d86056af369360800000000000000
+      internalID: 7175993039807632192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_82
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 936
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca95fb4f803c5b50800000000000000
+      internalID: 6583190147321666251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_83
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 937
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a9938e68b132360800000000000000
+      internalID: 7143583700175395432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_84
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 936
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8b2f50471e69b90800000000000000
+      internalID: -7235347862891874066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_85
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 937
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e34ec13399d22b20800000000000000
+      internalID: 3108285919058084834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_86
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 937
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0744fabff261b1bf0800000000000000
+      internalID: -352663750476610448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_87
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 937
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf6390fb5f7efe60800000000000000
+      internalID: 7997970021111525340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_88
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 936
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a70371fd3f2b9c0800000000000000
+      internalID: -3912796986739230081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_89
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 937
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5936781a2fc29ce10800000000000000
+      internalID: 2218353712060392341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_90
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c7b8aa95edd6f00800000000000000
+      internalID: 1111789159725104274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_91
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc51dcb686a12660800000000000000
+      internalID: 7359346363723766996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_92
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 937
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b45840e8022314e0800000000000000
+      internalID: -2012227186986560328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_93
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 937
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b64d8c62586135d0800000000000000
+      internalID: -3084569566554274127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_94
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 936
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b759280813c64fb0800000000000000
+      internalID: -4663825856112011340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_95
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 937
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afa1ce2136eb54b0800000000000000
+      internalID: -5450509825089622106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_96
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 936
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276ca2c3c361a7480800000000000000
+      internalID: -8900777265581078926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_97
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abcc49f432f95b040800000000000000
+      internalID: 4662807963219840186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_98
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 937
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635f180cf482305d0800000000000000
+      internalID: -3097587795703499466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_99
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 936
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407bc71d8592e8640800000000000000
+      internalID: 5084046490796340996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_100
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 937
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c8638e855e99650800000000000000
+      internalID: 6240270928714304525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_101
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 936
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67952c420ae06ad0800000000000000
+      internalID: -2710909680088672405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_102
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 937
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c168f4b21007cb0800000000000000
+      internalID: -4868389911658095585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_103
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 937
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0d65364b621bdf0800000000000000
+      internalID: -166309155033394965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_104
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 937
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0841a0422b3bcde0800000000000000
+      internalID: -1311889848149129201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_105
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 937
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63514f9e583f9ce10800000000000000
+      internalID: 2218572047937967414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_106
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 937
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca51b9b9f8d4c360800000000000000
+      internalID: 7189109472264018639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_107
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 937
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804c90c4d6763edc0800000000000000
+      internalID: -3610928757096201208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04DailyWork_108
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 937
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa417ec71f3e20e0800000000000000
+      internalID: -2292825788804674825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      04DailyWork_0: 6170244057970120200
+      04DailyWork_1: 6721150930825763903
+      04DailyWork_10: -8066939975979962968
+      04DailyWork_100: 6240270928714304525
+      04DailyWork_101: -2710909680088672405
+      04DailyWork_102: -4868389911658095585
+      04DailyWork_103: -166309155033394965
+      04DailyWork_104: -1311889848149129201
+      04DailyWork_105: 2218572047937967414
+      04DailyWork_106: 7189109472264018639
+      04DailyWork_107: -3610928757096201208
+      04DailyWork_108: -2292825788804674825
+      04DailyWork_11: 4811290080677264781
+      04DailyWork_12: -6304646373523890879
+      04DailyWork_13: 5901799846090988003
+      04DailyWork_14: 8867968419908427650
+      04DailyWork_15: -6957775068280349401
+      04DailyWork_16: -7129338952920120602
+      04DailyWork_17: -2002881288663742193
+      04DailyWork_18: -5441354652183731937
+      04DailyWork_19: 2455216512745456547
+      04DailyWork_2: 5748702396315104075
+      04DailyWork_20: -7690095333457271779
+      04DailyWork_21: 2039086383119943345
+      04DailyWork_22: -135110669485824344
+      04DailyWork_23: 8988089232491667121
+      04DailyWork_24: 7041870358715207275
+      04DailyWork_25: -3056496053574868162
+      04DailyWork_26: -4716751526308352570
+      04DailyWork_27: 9205008218070736498
+      04DailyWork_28: 6167574965181614774
+      04DailyWork_29: -173610069777493514
+      04DailyWork_3: -869457827767271026
+      04DailyWork_30: 7921479948829720205
+      04DailyWork_31: -8423311568256380305
+      04DailyWork_32: 4514192832175612263
+      04DailyWork_33: 7656911687773651009
+      04DailyWork_34: -3882970502505234132
+      04DailyWork_35: 2362875232793621752
+      04DailyWork_36: 4426862312745759809
+      04DailyWork_37: -2456102462392665577
+      04DailyWork_38: 4602207746837916471
+      04DailyWork_39: 9123131644969810723
+      04DailyWork_4: -6306976802338340236
+      04DailyWork_40: -4109676252204815661
+      04DailyWork_41: 7196863620305490743
+      04DailyWork_42: 4898266421602828859
+      04DailyWork_43: -4553171577756954636
+      04DailyWork_44: -2146333165995535718
+      04DailyWork_45: -2809311243321362449
+      04DailyWork_46: -3734502317812196845
+      04DailyWork_47: -4637304265070833973
+      04DailyWork_48: 6594906320625939710
+      04DailyWork_49: -4544076813699388326
+      04DailyWork_5: -6674693124350055295
+      04DailyWork_50: 7826276272856291187
+      04DailyWork_51: 3007825465806838655
+      04DailyWork_52: -1570142189778839736
+      04DailyWork_53: 4331842353659266107
+      04DailyWork_54: -4197419564401956420
+      04DailyWork_55: 1114733432007851143
+      04DailyWork_56: -3300700195828029282
+      04DailyWork_57: -5470397079928219183
+      04DailyWork_58: 3949109651000555059
+      04DailyWork_59: 692821107257633878
+      04DailyWork_6: -4087715659296755598
+      04DailyWork_60: 1167063976991611092
+      04DailyWork_61: 5506204692459593326
+      04DailyWork_62: -1132903399993395316
+      04DailyWork_63: -7789328888744737288
+      04DailyWork_64: -8393723960023977323
+      04DailyWork_65: -2148000334149215810
+      04DailyWork_66: 9073318526963219130
+      04DailyWork_67: -3728250804163486345
+      04DailyWork_68: -8276560498792305065
+      04DailyWork_69: -2746611361313769632
+      04DailyWork_7: -4503554095645959809
+      04DailyWork_70: -6428252763268636493
+      04DailyWork_71: 6411359902626712129
+      04DailyWork_72: 3635447208349566853
+      04DailyWork_73: -3770290216498275872
+      04DailyWork_74: -2395890618414407011
+      04DailyWork_75: -6297549642661640880
+      04DailyWork_76: -1834863060972228595
+      04DailyWork_77: -6756226107795881187
+      04DailyWork_78: -2189471421448941172
+      04DailyWork_79: -2081830457431688361
+      04DailyWork_8: 7913083084766565930
+      04DailyWork_80: 4241935872025433767
+      04DailyWork_81: 7175993039807632192
+      04DailyWork_82: 6583190147321666251
+      04DailyWork_83: 7143583700175395432
+      04DailyWork_84: -7235347862891874066
+      04DailyWork_85: 3108285919058084834
+      04DailyWork_86: -352663750476610448
+      04DailyWork_87: 7997970021111525340
+      04DailyWork_88: -3912796986739230081
+      04DailyWork_89: 2218353712060392341
+      04DailyWork_9: -1106317622270567128
+      04DailyWork_90: 1111789159725104274
+      04DailyWork_91: 7359346363723766996
+      04DailyWork_92: -2012227186986560328
+      04DailyWork_93: -3084569566554274127
+      04DailyWork_94: -4663825856112011340
+      04DailyWork_95: -5450509825089622106
+      04DailyWork_96: -8900777265581078926
+      04DailyWork_97: 4662807963219840186
+      04DailyWork_98: -3097587795703499466
+      04DailyWork_99: 5084046490796340996
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

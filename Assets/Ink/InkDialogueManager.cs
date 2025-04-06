@@ -10,6 +10,15 @@ using System.IO;
 
 public class InkDialogueManager : MonoBehaviour
 {
+    [SerializeField]
+    [Header("Objects that need to be hidden")]
+    private GameObject[] hideObjects = null;
+
+    [SerializeField]
+    [Header("Objects that need to be shown")]
+    private GameObject[] showObjects = null;
+
+
     //public static event Action<Story> OnCreateStory;
 
     //Ink file assest
@@ -64,6 +73,11 @@ public class InkDialogueManager : MonoBehaviour
     void StartStory()
     {
         story = new Story(inkJSONAsset.text);
+        // Hide all the objects
+        for (int i = 0; i < hideObjects.Length; i++)
+        {
+            hideObjects[i].SetActive(false);
+        }
         //if (OnCreateStory != null) OnCreateStory(story);
         ContinueStory();
     }
@@ -111,6 +125,13 @@ public class InkDialogueManager : MonoBehaviour
         {
             Debug.Log("story ends");
             //player.SetActive(true);
+
+            // Show all the objects
+            for (int i = 0; i < showObjects.Length; i++)
+            {
+                showObjects[i].SetActive(true);
+            }
+            // Destroy the dialogue manager
             Destroy(gameObject);
         }
     }

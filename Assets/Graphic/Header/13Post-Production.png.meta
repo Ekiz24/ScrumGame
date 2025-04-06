@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 2f54b5d86a1104f6eb9b9be6e4680a20
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6759890853341142055
+    second: Post-Production_0
+  - first:
+      213: -4668732388799435264
+    second: Post-Production_1
+  - first:
+      213: 5738471382078328716
+    second: Post-Production_2
+  - first:
+      213: -4429611504131809961
+    second: Post-Production_3
+  - first:
+      213: -5438271777401048995
+    second: Post-Production_4
+  - first:
+      213: 8981879487327180800
+    second: Post-Production_5
+  - first:
+      213: 7388456647233504141
+    second: Post-Production_6
+  - first:
+      213: -5223973285256906437
+    second: Post-Production_7
+  - first:
+      213: -9182499228381946791
+    second: Post-Production_8
+  - first:
+      213: -1126102057839722651
+    second: Post-Production_9
+  - first:
+      213: 8320361365561948444
+    second: Post-Production_10
+  - first:
+      213: 2492167132019187939
+    second: Post-Production_11
+  - first:
+      213: 4132654399099062954
+    second: Post-Production_12
+  - first:
+      213: 5067932444462838575
+    second: Post-Production_13
+  - first:
+      213: -229797715880256771
+    second: Post-Production_14
+  - first:
+      213: 8119819829656148615
+    second: Post-Production_15
+  - first:
+      213: 4061855040677443961
+    second: Post-Production_16
+  - first:
+      213: -6034473833173680580
+    second: Post-Production_17
+  - first:
+      213: 7655928346286415690
+    second: Post-Production_18
+  - first:
+      213: 4254306662079303919
+    second: Post-Production_19
+  - first:
+      213: -568990454958513574
+    second: Post-Production_20
+  - first:
+      213: 81277980773279006
+    second: Post-Production_21
+  - first:
+      213: 7157500024533076721
+    second: Post-Production_22
+  - first:
+      213: -5522395447374247853
+    second: Post-Production_23
+  - first:
+      213: 2972832963848342799
+    second: Post-Production_24
+  - first:
+      213: -461701884684135727
+    second: Post-Production_25
+  - first:
+      213: 9030751564735902181
+    second: Post-Production_26
+  - first:
+      213: -4025430333261714529
+    second: Post-Production_27
+  - first:
+      213: 6211671187716794866
+    second: Post-Production_28
+  - first:
+      213: 2506276090200295645
+    second: Post-Production_29
+  - first:
+      213: -4417588782429613913
+    second: Post-Production_30
+  - first:
+      213: 462302682116687970
+    second: Post-Production_31
+  - first:
+      213: 4190940469722810445
+    second: Post-Production_32
+  - first:
+      213: 5893017075547601566
+    second: Post-Production_33
+  - first:
+      213: 8600422066807103609
+    second: Post-Production_34
+  - first:
+      213: -2826349221629279819
+    second: Post-Production_35
+  - first:
+      213: -1333733710240636623
+    second: Post-Production_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Post-Production_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c9fc96ae4ffcd50800000000000000
+      internalID: 6759890853341142055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00eaf3ed0a4553fb0800000000000000
+      internalID: -4668732388799435264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 949
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f068a715523af40800000000000000
+      internalID: 5738471382078328716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 948
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d5d3b5ecbd682c0800000000000000
+      internalID: -4429611504131809961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_4
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 949
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d507af3b1a06784b0800000000000000
+      internalID: -5438271777401048995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 948
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00811814ecb06ac70800000000000000
+      internalID: 8981879487327180800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_6
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 949
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d830ab8cc22198660800000000000000
+      internalID: 7388456647233504141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 949
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39b12099f7b087b0800000000000000
+      internalID: -5223973285256906437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 949
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cdefd4a95319080800000000000000
+      internalID: -9182499228381946791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_9
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 949
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f70ad05284f50f0800000000000000
+      internalID: -1126102057839722651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_10
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19343d249cd77370800000000000000
+      internalID: 8320361365561948444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_11
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 949
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e068e07dc4f59220800000000000000
+      internalID: 2492167132019187939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_12
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa41cdb7432a5930800000000000000
+      internalID: 4132654399099062954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_13
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 949
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2372e905b9e45640800000000000000
+      internalID: 5067932444462838575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_14
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 949
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfad2c6e1389fccf0800000000000000
+      internalID: -229797715880256771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_15
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 963
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ad3da4d156fa070800000000000000
+      internalID: 8119819829656148615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_16
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 949
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97975bc83ab9e5830800000000000000
+      internalID: 4061855040677443961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_17
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3efa4f450e314ca0800000000000000
+      internalID: -6034473833173680580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_18
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fde32a4425f3a60800000000000000
+      internalID: 7655928346286415690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_19
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 949
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe090de6e555a0b30800000000000000
+      internalID: 4254306662079303919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_20
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 948
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a522c93223a8a18f0800000000000000
+      internalID: -568990454958513574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_21
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 948
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e156d0494e1c02100800000000000000
+      internalID: 81277980773279006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_22
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fac42aa95c845360800000000000000
+      internalID: 7157500024533076721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_23
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 949
+        width: 12
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358060a79928c53b0800000000000000
+      internalID: -5522395447374247853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_24
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 949
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d80c274df914920800000000000000
+      internalID: 2972832963848342799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_25
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d216430594b799f0800000000000000
+      internalID: -461701884684135727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_26
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1f2ee73bca35d70800000000000000
+      internalID: 9030751564735902181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_27
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 949
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b6ad5807cc228c0800000000000000
+      internalID: -4025430333261714529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_28
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9636dc80a443650800000000000000
+      internalID: 6211671187716794866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_29
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 949
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8817143d418c220800000000000000
+      internalID: 2506276090200295645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_30
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 948
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a05883686291b2c0800000000000000
+      internalID: -4417588782429613913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_31
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 948
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268864a07dd6a6600800000000000000
+      internalID: 462302682116687970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_32
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 949
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4803a41726392a30800000000000000
+      internalID: 4190940469722810445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_33
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 949
+        width: 12
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a7353cec338c150800000000000000
+      internalID: 5893017075547601566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_34
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 949
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970e7728d46da5770800000000000000
+      internalID: 8600422066807103609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_35
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 949
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1c5998b5ac6c8d0800000000000000
+      internalID: -2826349221629279819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post-Production_36
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 912
+        width: 532
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131a428c140ad7de0800000000000000
+      internalID: -1333733710240636623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Post-Production_0: 6759890853341142055
+      Post-Production_1: -4668732388799435264
+      Post-Production_10: 8320361365561948444
+      Post-Production_11: 2492167132019187939
+      Post-Production_12: 4132654399099062954
+      Post-Production_13: 5067932444462838575
+      Post-Production_14: -229797715880256771
+      Post-Production_15: 8119819829656148615
+      Post-Production_16: 4061855040677443961
+      Post-Production_17: -6034473833173680580
+      Post-Production_18: 7655928346286415690
+      Post-Production_19: 4254306662079303919
+      Post-Production_2: 5738471382078328716
+      Post-Production_20: -568990454958513574
+      Post-Production_21: 81277980773279006
+      Post-Production_22: 7157500024533076721
+      Post-Production_23: -5522395447374247853
+      Post-Production_24: 2972832963848342799
+      Post-Production_25: -461701884684135727
+      Post-Production_26: 9030751564735902181
+      Post-Production_27: -4025430333261714529
+      Post-Production_28: 6211671187716794866
+      Post-Production_29: 2506276090200295645
+      Post-Production_3: -4429611504131809961
+      Post-Production_30: -4417588782429613913
+      Post-Production_31: 462302682116687970
+      Post-Production_32: 4190940469722810445
+      Post-Production_33: 5893017075547601566
+      Post-Production_34: 8600422066807103609
+      Post-Production_35: -2826349221629279819
+      Post-Production_36: -1333733710240636623
+      Post-Production_4: -5438271777401048995
+      Post-Production_5: 8981879487327180800
+      Post-Production_6: 7388456647233504141
+      Post-Production_7: -5223973285256906437
+      Post-Production_8: -9182499228381946791
+      Post-Production_9: -1126102057839722651
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
