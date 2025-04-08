@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
     public Transform mediumPriorityContainer;
     public Transform lowPriorityContainer;
     public Transform noPriorityContainer;
+    public Transform selectionContainer; // 新增选择容器引用
     public Button completeButton;
     public Button resetButton;  // 新增复原按钮引用
     public Button planningButton; // 新增规划按钮引用
@@ -129,7 +130,7 @@ public class GameManager : MonoBehaviour
         SaveData();
     }
 
-    void UpdateUI()
+    public void UpdateUI()
     {
         // 清除所有容器中的子物体
         foreach (Transform child in highPriorityContainer)
@@ -140,22 +141,32 @@ public class GameManager : MonoBehaviour
             Destroy(child.gameObject);
         foreach (Transform child in noPriorityContainer)
             Destroy(child.gameObject);
+        foreach (Transform child in selectionContainer)
+            Destroy(child.gameObject);
 
         // 按优先级和索引排序
         List<ItemData> highPriorityItems = new List<ItemData>();
         List<ItemData> mediumPriorityItems = new List<ItemData>();
         List<ItemData> lowPriorityItems = new List<ItemData>();
         List<ItemData> noPriorityItems = new List<ItemData>();
+        List<ItemData> selectedItems = new List<ItemData>();
 
-        // 根据优先级分组
+        // 根据优先级和选中状态分组
         foreach (ItemData item in gameData.items)
         {
-            switch (item.priority)
+            if (item.isSelected)
             {
-                case "高优先级": highPriorityItems.Add(item); break;
-                case "中优先级": mediumPriorityItems.Add(item); break;
-                case "低优先级": lowPriorityItems.Add(item); break;
-                case "无优先级": noPriorityItems.Add(item); break;
+                selectedItems.Add(item);
+            }
+            else
+            {
+                switch (item.priority)
+                {
+                    case "高优先级": highPriorityItems.Add(item); break;
+                    case "中优先级": mediumPriorityItems.Add(item); break;
+                    case "低优先级": lowPriorityItems.Add(item); break;
+                    case "无优先级": noPriorityItems.Add(item); break;
+                }
             }
         }
 
@@ -165,11 +176,7 @@ public class GameManager : MonoBehaviour
         lowPriorityItems.Sort((a, b) => a.positionIndex.CompareTo(b.positionIndex));
         noPriorityItems.Sort((a, b) => a.positionIndex.CompareTo(b.positionIndex));
 
-        mediumPriorityItems.Sort((a, b) => a.positionIndex.CompareTo(b.positionIndex));
-        lowPriorityItems.Sort((a, b) => a.positionIndex.CompareTo(b.positionIndex));
-        noPriorityItems.Sort((a, b) => a.positionIndex.CompareTo(b.positionIndex));
-
-        // 创建高优先级物体
+        // 创建高优先级物体 (只创建未选中的)
         CreateItemsForContainer(highPriorityItems, highPriorityContainer);
         // 创建中优先级物体
         CreateItemsForContainer(mediumPriorityItems, mediumPriorityContainer);
@@ -177,6 +184,9 @@ public class GameManager : MonoBehaviour
         CreateItemsForContainer(lowPriorityItems, lowPriorityContainer);
         // 创建无优先级物体
         CreateItemsForContainer(noPriorityItems, noPriorityContainer);
+        // 创建选中的物体
+        CreateItemsForContainer(selectedItems, selectionContainer);
+        AdjustSelectionContainerItems(); // 调整选择容器中的物体位置
     }
 
     void CreateItemsForContainer(List<ItemData> items, Transform container)
@@ -246,9 +256,18 @@ public class GameManager : MonoBehaviour
     }
 
     // 获取当前已选中物体的数量
-    private int GetSelectedItemsCount()
+    public int GetSelectedItemsCount()
     {
         return gameData.items.Count(item => item.isSelected);
+    }
+
+    // 获取指定优先级的物体数量
+    public int GetItemCountByPriority(string priority)
+    {
+        return gameData.items.Count(item =>
+            item.priority == priority &&
+            !item.isSelected &&
+            !item.isCompleted);
     }
 
     public bool ToggleItemSelection(string itemId)
@@ -265,7 +284,7 @@ public class GameManager : MonoBehaviour
                 if (selectedCount >= 3)
                 {
                     // 已达到最大选中数量，不允许再选
-                    Debug.Log($"已达到最大选中数量(3个)，不能再选中物体 {itemId}");
+                    Debug.Log($"已达到最大选择数量(3个)，请先取消选择其他物体");
                     return false;
                 }
             }
@@ -274,8 +293,33 @@ public class GameManager : MonoBehaviour
             item.isSelected = !item.isSelected;
             SaveData();
 
-            // 打印调试信息
-            Debug.Log($"物体 {itemId} 选中状态: {item.isSelected}, 当前选中物体总数: {GetSelectedItemsCount()}");
+            return true;
+        }
+        return false;
+    }
+
+    // 直接设置物体的选中状态
+    public bool SetItemSelected(string itemId, bool selected)
+    {
+        // 更新物体的选中状态
+        ItemData item = gameData.items.Find(i => i.itemId == itemId);
+        if (item != null && !item.isCompleted)
+        {
+            // 如果要设为选中，先检查数量限制
+            if (selected && !item.isSelected)
+            {
+                int selectedCount = GetSelectedItemsCount();
+                if (selectedCount >= 3)
+                {
+                    Debug.Log($"已达到最大选中数量(3个)，不能再选中物体 {itemId}");
+                    return false;
+                }
+            }
+
+            item.isSelected = selected;
+            SaveData();
+            UpdateUI(); // 立即更新UI显示
+
             return true;
         }
         return false;
@@ -340,9 +384,6 @@ public class GameManager : MonoBehaviour
 
         if (item1 != null && item2 != null)
         {
-            Debug.Log($"交换物体：{item1.itemId}(优先级:{item1.priority}, 位置:{item1.positionIndex}) 和 " +
-                      $"{item2.itemId}(优先级:{item2.priority}, 位置:{item2.positionIndex})");
-
             // 交换优先级
             string tempPriority = item1.priority;
             item1.priority = item2.priority;
@@ -379,12 +420,11 @@ public class GameManager : MonoBehaviour
         SaveData();
     }
 
-    void SaveData()
+    public void SaveData()
     {
         // 保存数据到JSON文件
         string jsonData = JsonUtility.ToJson(gameData, true);
         File.WriteAllText(saveFilePath, jsonData);
-        Debug.Log("数据已保存: " + saveFilePath);
     }
 
     void LoadData()
@@ -629,6 +669,21 @@ public class GameManager : MonoBehaviour
         else
         {
             Debug.LogWarning($"无效的阶段序号: {stageIndex}, 有效范围: 0-{stageImages.Length - 1}");
+        }
+    }
+
+    public void AdjustSelectionContainerItems()
+    {
+        int index = 0;
+        foreach (Transform child in selectionContainer)
+        {
+            RectTransform rt = child.GetComponent<RectTransform>();
+            if (rt != null)
+            {
+                // 垂直排列物体，每个间隔50个单位
+                rt.anchoredPosition = new Vector2(0, -50 * index);
+                index++;
+            }
         }
     }
 }

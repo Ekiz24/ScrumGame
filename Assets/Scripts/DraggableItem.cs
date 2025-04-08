@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using TMPro;
-using System.Collections;
+using System.Collections.Generic;
 
 public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler
 {
@@ -42,22 +42,17 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     void UpdateVisualState()
     {
-        Debug.Log($"更新物体 {itemData.itemId} 状态: 已完成={itemData.isCompleted}, 已选中={itemData.isSelected}");
-
         if (itemData.isCompleted)
         {
             background.color = completedColor;
-            Debug.Log($"设置物体 {itemData.itemId} 为完成颜色");
         }
         else if (itemData.isSelected)
         {
             background.color = selectedColor;
-            Debug.Log($"设置物体 {itemData.itemId} 为选中颜色");
         }
         else
         {
             background.color = normalColor;
-            Debug.Log($"设置物体 {itemData.itemId} 为正常颜色");
         }
     }
 
@@ -95,105 +90,211 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
 
-        bool exchangeSuccessful = false;
+        // 首先检查是否拖到了另一个物体上（优先级最高）
+        DraggableItem targetItem = FindDraggableItemUnderPosition(eventData.position);
+        if (targetItem != null && targetItem != this && !targetItem.itemData.isCompleted)
+        {
+            // 如果当前物体是选中状态，取消选中
+            if (itemData.isSelected)
+            {
+                gameManager.SetItemSelected(itemData.itemId, false);
+            }
 
-        // 处理拖放目标
+            gameManager.SwapItems(itemData.itemId, targetItem.itemData.itemId);
+            Destroy(gameObject);
+            return;
+        }
+
+        // 如果没有拖到物体上，再检查是否拖到了容器上
         if (eventData.pointerCurrentRaycast.gameObject != null)
         {
             GameObject hitObject = eventData.pointerCurrentRaycast.gameObject;
+            Transform hitTransform = hitObject.transform;
 
-            // 向上查找直到找到DraggableItem或PriorityContainer
-            Transform currentTransform = hitObject.transform;
-            DraggableItem targetItem = null;
-            PriorityContainer targetContainer = null;
+            // 寻找容器
+            Transform targetContainer = FindContainerInHierarchy(hitTransform);
 
-            // 向上递归查找父物体，最多尝试5层
-            int searchDepth = 0;
-            while (currentTransform != null && searchDepth < 5)
+            // 处理拖放到容器的情况
+            if (targetContainer != null)
             {
-                targetItem = currentTransform.GetComponent<DraggableItem>();
-                if (targetItem != null && targetItem != this) break;
-
-                targetContainer = currentTransform.GetComponent<PriorityContainer>();
-                if (targetContainer != null) break;
-
-                currentTransform = currentTransform.parent;
-                searchDepth++;
-            }
-
-            if (targetItem != null && targetItem != this && !targetItem.itemData.isCompleted)
-            {
-                // 与另一个物体交换位置
-                gameManager.SwapItems(itemData.itemId, targetItem.itemData.itemId);
-                // 交换后销毁当前拖动的物体，因为UI已经被重新创建
-                Destroy(gameObject);
-                return;
-            }
-            else if (targetContainer != null)
-            {
-                // 找出容器中与鼠标位置最接近的物体
-                DraggableItem closestItem = FindClosestItem(targetContainer.transform, eventData.position);
-
-                if (closestItem != null && !closestItem.itemData.isCompleted)
+                if (targetContainer == gameManager.selectionContainer)
                 {
-                    // 与最近的物体交换位置
-                    gameManager.SwapItems(itemData.itemId, closestItem.itemData.itemId);
-                    Destroy(gameObject);
+                    HandleDropToSelectionContainer();
                     return;
                 }
-                // 如果没找到可交换的物体，并且容器未满，则直接添加到容器
-                else if (targetContainer.transform.childCount < 3)
+                else if (targetContainer == gameManager.highPriorityContainer)
                 {
-                    gameManager.UpdateItemPriority(itemData.itemId, targetContainer.priorityLevel);
-                    Destroy(gameObject);
+                    HandleDirectDropToPriorityContainer("高优先级");
+                    return;
+                }
+                else if (targetContainer == gameManager.mediumPriorityContainer)
+                {
+                    HandleDirectDropToPriorityContainer("中优先级");
+                    return;
+                }
+                else if (targetContainer == gameManager.lowPriorityContainer)
+                {
+                    HandleDirectDropToPriorityContainer("低优先级");
+                    return;
+                }
+                else if (targetContainer == gameManager.noPriorityContainer)
+                {
+                    HandleDirectDropToPriorityContainer("无优先级");
                     return;
                 }
             }
         }
 
         // 如果没有拖到有效位置，返回原位置
-        transform.SetParent(originalParent);
-        rectTransform.anchoredPosition = originalPosition;
+        ReturnToOriginalPosition();
     }
 
-    // 添加这个新方法来找出容器中与给定位置最接近的物体
-    private DraggableItem FindClosestItem(Transform container, Vector2 position)
+    // 辅助方法：在层级中查找容器
+    private Transform FindContainerInHierarchy(Transform start)
     {
-        DraggableItem closestItem = null;
-        float closestDistance = float.MaxValue;
+        Transform current = start;
+        int searchDepth = 0;
 
-        // 记录鼠标位置，用于调试
-        Debug.Log($"鼠标位置: {position}");
-
-        // 遍历容器中的所有子物体
-        foreach (Transform child in container)
+        while (current != null && searchDepth < 5)
         {
-            DraggableItem item = child.GetComponent<DraggableItem>();
-            if (item != null && item != this && !item.itemData.isCompleted)
+            // 检查是否是选择容器或优先级容器
+            if (current == gameManager.selectionContainer ||
+                current == gameManager.highPriorityContainer ||
+                current == gameManager.mediumPriorityContainer ||
+                current == gameManager.lowPriorityContainer ||
+                current == gameManager.noPriorityContainer)
             {
-                // 获取物体的中心位置
-                RectTransform itemRect = item.GetComponent<RectTransform>();
-                Vector3 itemPos = itemRect.position;
+                return current;
+            }
 
-                // 计算物体位置与鼠标位置的距离
-                float distance = Vector2.Distance(position, itemPos);
-                Debug.Log($"物体: {item.itemData.itemId}, 位置: {itemPos}, 距离: {distance}");
+            current = current.parent;
+            searchDepth++;
+        }
 
-                if (distance < closestDistance)
-                {
-                    closestDistance = distance;
-                    closestItem = item;
-                }
+        return null;
+    }
+
+    // 辅助方法：在层级中查找可拖动物体
+    private DraggableItem FindDraggableItemInHierarchy(Transform start)
+    {
+        Transform current = start;
+        int searchDepth = 0;
+
+        while (current != null && searchDepth < 5)
+        {
+            DraggableItem item = current.GetComponent<DraggableItem>();
+            if (item != null && item != this)
+            {
+                return item;
+            }
+
+            current = current.parent;
+            searchDepth++;
+        }
+
+        return null;
+    }
+
+    // 通过射线查找指定位置下的DraggableItem
+    private DraggableItem FindDraggableItemUnderPosition(Vector2 screenPosition)
+    {
+        // 创建射线
+        PointerEventData eventData = new PointerEventData(EventSystem.current);
+        eventData.position = screenPosition;
+
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventData, results);
+
+        // 搜索所有结果，查找第一个不是自己的DraggableItem
+        foreach (RaycastResult result in results)
+        {
+            if (result.gameObject != null)
+            {
+                // 先尝试直接获取DraggableItem组件
+                DraggableItem item = result.gameObject.GetComponent<DraggableItem>();
+                if (item != null && item != this)
+                    return item;
+
+                // 如果没找到，尝试递归查找父物体
+                item = FindDraggableItemInHierarchy(result.gameObject.transform);
+                if (item != null && item != this)
+                    return item;
             }
         }
 
-        // 调试输出最近的物体
-        if (closestItem != null)
+        return null;
+    }
+
+    // 处理拖放到选择容器
+    private void HandleDropToSelectionContainer()
+    {
+        // 检查已选中数量限制
+        int selectedCount = gameManager.GetSelectedItemsCount();
+        if (selectedCount >= 3 && !itemData.isSelected)
         {
-            Debug.Log($"最近的物体是: {closestItem.itemData.itemId}, 距离: {closestDistance}");
+            Debug.Log($"已达到最大选中数量(3个)，不能再将物体 {itemData.itemId} 拖入选择区");
+            ReturnToOriginalPosition();
+            return;
         }
 
-        return closestItem;
+        // 设置为选中状态
+        bool success = gameManager.SetItemSelected(itemData.itemId, true);
+        if (success)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            ReturnToOriginalPosition();
+        }
+    }
+
+    // 直接拖到容器中（不是拖到物体上）
+    private void HandleDirectDropToPriorityContainer(string priority)
+    {
+        // 只有直接添加到不同容器才检查容器满的限制
+        bool isChangingPriority = priority != itemData.priority;
+
+        if (isChangingPriority && !itemData.isSelected)
+        {
+            // 检查目标容器物体数量
+            int count = gameManager.GetItemCountByPriority(priority);
+            if (count >= 3)
+            {
+                Debug.Log($"{priority}容器已满(3个)，请拖到具体物体上进行交换");
+                ReturnToOriginalPosition();
+                return;
+            }
+        }
+
+        // 处理从选中状态拖回的情况
+        if (itemData.isSelected)
+        {
+            gameManager.SetItemSelected(itemData.itemId, false);
+        }
+
+        // 更新优先级
+        if (isChangingPriority)
+        {
+            gameManager.UpdateItemPriority(itemData.itemId, priority);
+        }
+        else
+        {
+            // 如果只是在同一容器内调整位置，不改变优先级
+            gameManager.SaveData();
+            gameManager.UpdateUI();
+        }
+
+        // 显示当前任务状态和优先级
+        Debug.Log($"任务 {itemData.itemId}: 优先级={priority}, 状态={(itemData.isSelected ? "已选中" : itemData.isCompleted ? "已完成" : "未选中")}");
+
+        Destroy(gameObject);
+    }
+
+    private void ReturnToOriginalPosition()
+    {
+        transform.SetParent(originalParent);
+        rectTransform.anchoredPosition = originalPosition;
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -208,70 +309,6 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
                 return;
             }
         }
-
-        // 正常模式下的行为
-        // 如果物体已完成，不允许再选中
-        if (itemData.isCompleted)
-            return;
-
-        // 只有在规划模式下才能选中/取消选中任务
-        if (!gameManager.IsInPlanningMode())
-        {
-            Debug.Log("当前不在规划模式，无法选择任务。请先点击规划按钮。");
-            // 可以添加提示效果
-            //StartCoroutine(FlashInfo());
-            return;
-        }
-
-        // 切换物体的选中状态
-        bool selectionChanged = gameManager.ToggleItemSelection(itemData.itemId);
-
-        if (selectionChanged)
-        {
-            // 从GameManager获取最新状态并更新视觉效果
-            ItemData updatedData = gameManager.GetItemData(itemData.itemId);
-            if (updatedData != null)
-            {
-                itemData = updatedData;
-                UpdateVisualState();
-            }
-        }
-        else
-        {
-            // 选择失败，可以添加提示效果
-            Debug.Log("已达到最大选择数量(3个)，请先取消选择其他物体");
-            // 可以添加UI反馈，比如闪烁效果
-            StartCoroutine(FlashWarning());
-        }
     }
 
-    // 添加闪烁效果作为警告
-    private IEnumerator FlashWarning()
-    {
-        Color originalColor = background.color;
-
-        // 闪烁3次
-        for (int i = 0; i < 3; i++)
-        {
-            background.color = Color.red;
-            yield return new WaitForSeconds(0.1f);
-            background.color = originalColor;
-            yield return new WaitForSeconds(0.1f);
-        }
-    }
-
-    // // 添加信息提示闪烁效果:不能选中，未在规划模式
-    // private IEnumerator FlashInfo()
-    // {
-    //     Color originalColor = background.color;
-
-    //     // 闪烁2次蓝色表示信息提示
-    //     for (int i = 0; i < 2; i++)
-    //     {
-    //         background.color = Color.blue;
-    //         yield return new WaitForSeconds(0.1f);
-    //         background.color = originalColor;
-    //         yield return new WaitForSeconds(0.1f);
-    //     }
-    // }
 }

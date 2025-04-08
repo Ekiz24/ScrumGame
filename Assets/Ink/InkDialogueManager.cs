@@ -11,15 +11,21 @@ using System.IO;
 public class InkDialogueManager : MonoBehaviour
 {
     [SerializeField]
-    [Header("Objects that need to be hidden")]
+    [Header("Objects that need to be hidden at Start")]
     private GameObject[] hideObjects = null;
+    [SerializeField]
+    [Header("Objects that need to be shown at Start")]
+
+    private GameObject[] showObjectsAtStart = null;
 
     [SerializeField]
-    [Header("Objects that need to be shown")]
+    [Header("Objects that need to be hidden at End")]
+    private GameObject[] hideObjectsAtEnd = null;
+    [SerializeField]
+    [Header("Objects that need to be shown at End")]
     private GameObject[] showObjects = null;
 
 
-    //public static event Action<Story> OnCreateStory;
 
     //Ink file assest
     [SerializeField]
@@ -45,13 +51,12 @@ public class InkDialogueManager : MonoBehaviour
 
     private string savePath;
 
-
-
     void Awake()
     {
+
         //player.SetActive(false);
         //Find the components
-        canvas = transform.Find("UI Canvas");
+        canvas = transform.Find("Dialog Canvas");
         dialogueBox = canvas.Find("Dialogue Box");
         dialogueBoxText = dialogueBox.Find("Text");
         characterNameBox = dialogueBox.Find("Character Name Box");
@@ -59,7 +64,6 @@ public class InkDialogueManager : MonoBehaviour
         choiceBox = canvas.Find("Choice Box");
         choiceButton = choiceBox.Find("Choice Button");
         characterBox = canvas.Find("Character Box");
-
 
         for (int i = 0; i < characterBox.childCount; i++)
         {
@@ -73,12 +77,27 @@ public class InkDialogueManager : MonoBehaviour
     void StartStory()
     {
         story = new Story(inkJSONAsset.text);
-        // Hide all the objects
-        for (int i = 0; i < hideObjects.Length; i++)
+
+        // 隐藏需要隐藏的物体
+        if (hideObjects != null)
         {
-            hideObjects[i].SetActive(false);
+            for (int i = 0; i < hideObjects.Length; i++)
+            {
+                if (hideObjects[i] != null)
+                    hideObjects[i].SetActive(false);
+            }
         }
-        //if (OnCreateStory != null) OnCreateStory(story);
+
+        // 显示需要在开始时显示的物体
+        if (showObjectsAtStart != null)
+        {
+            for (int i = 0; i < showObjectsAtStart.Length; i++)
+            {
+                if (showObjectsAtStart[i] != null)
+                    showObjectsAtStart[i].SetActive(true);
+            }
+        }
+
         ContinueStory();
     }
 
@@ -124,15 +143,28 @@ public class InkDialogueManager : MonoBehaviour
         else
         {
             Debug.Log("story ends");
-            //player.SetActive(true);
 
-            // Show all the objects
-            for (int i = 0; i < showObjects.Length; i++)
+            // 隐藏所有需要在结束时隐藏的物体
+            if (hideObjectsAtEnd != null)
             {
-                showObjects[i].SetActive(true);
+                for (int i = 0; i < hideObjectsAtEnd.Length; i++)
+                {
+                    if (hideObjectsAtEnd[i] != null)
+                        hideObjectsAtEnd[i].SetActive(false);
+                }
             }
-            // Destroy the dialogue manager
-            Destroy(gameObject);
+
+            // 显示所有需要在结束时显示的物体
+            if (showObjects != null)
+            {
+                for (int i = 0; i < showObjects.Length; i++)
+                {
+                    if (showObjects[i] != null)
+                        showObjects[i].SetActive(true);
+                }
+            }
+            // 销毁对话管理器
+            //Destroy(gameObject);
         }
     }
 
@@ -208,7 +240,6 @@ public class InkDialogueManager : MonoBehaviour
 
     }
 
-
     //choice
     //after press choice
     void OnClickChoiceButton(Choice choice)
@@ -217,6 +248,42 @@ public class InkDialogueManager : MonoBehaviour
         choiceBox.gameObject.SetActive(false);
         ContinueStory();
     }
+
+    /// <summary>
+    /// 设置新的对话并开始
+    /// </summary>
+    /// <param name="newInkJSON">新的Ink JSON文件</param>
+    /// <param name="newHideObjects">需要在对话开始时隐藏的物体</param>
+    /// <param name="newShowObjects">需要在对话结束时显示的物体</param>
+    /// <param name="newShowObjectsAtStart">需要在对话开始时显示的物体</param>
+    /// <param name="newHideObjectsAtEnd">需要在对话结束时隐藏的物体</param>
+    public void SetupNewDialogue(TextAsset newInkJSON,
+                                GameObject[] newShowObjects,
+                                GameObject[] newHideObjectsAtEnd = null)
+    {
+        // 设置新的JSON文件
+        inkJSONAsset = newInkJSON;
+
+        // 设置新的隐藏/显示物体
+        showObjects = newShowObjects;
+        hideObjectsAtEnd = newHideObjectsAtEnd;
+
+        // 重置角色图像和位置
+        foreach (Transform charImage in characterImages)
+        {
+            if (charImage != null)
+                charImage.gameObject.SetActive(false);
+        }
+        charactersPos.Clear();
+        for (int i = 0; i < characterImages.Count; i++)
+        {
+            charactersPos.Add("");
+        }
+
+        // 开始新故事
+        StartStory();
+    }
+
     [Serializable]
     public class AllExpressions
     {
@@ -234,8 +301,6 @@ public class InkDialogueManager : MonoBehaviour
         public Sprite img;
 
     }
-
-
 
 }
 
