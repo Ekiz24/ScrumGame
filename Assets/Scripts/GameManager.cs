@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
     public Transform selectionContainer; // 新增选择容器引用
     public Button completeButton;
     public Button resetButton;  // 新增复原按钮引用
-    public Button planningButton; // 新增规划按钮引用
+    //public Button planningButton; // 新增规划按钮引用
     public Image scrumFrameworkStageImage;
     public Image developmentStageImage;
     public Sprite[] stageImages; // Scrum框架阶段的图片数组
@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour
         // 注册按钮点击事件
         completeButton.onClick.AddListener(OnCompleteButtonClick);
         resetButton.onClick.AddListener(OnResetButtonClick);  // 注册复原按钮点击事件
-        planningButton.onClick.AddListener(OnPlanningButtonClick); // 新增规划按钮监听
+        //planningButton.onClick.AddListener(OnPlanningButtonClick); // 新增规划按钮监听
     }
 
     void Start()
@@ -438,21 +438,21 @@ public class GameManager : MonoBehaviour
     }
 
     // 添加规划按钮点击处理方法
-    public void OnPlanningButtonClick()
-    {
-        // 切换规划模式状态
-        isInPlanningMode = !isInPlanningMode;
+    // public void OnPlanningButtonClick()
+    // {
+    //     // 切换规划模式状态
+    //     isInPlanningMode = !isInPlanningMode;
 
-        // 更新按钮文本或外观以反映当前状态
-        // 这里假设规划按钮有Text组件
-        Text buttonText = planningButton.GetComponentInChildren<Text>();
-        if (buttonText != null)
-        {
-            buttonText.text = isInPlanningMode ? "完成规划" : "开始规划";
-        }
+    //     // 更新按钮文本或外观以反映当前状态
+    //     // 这里假设规划按钮有Text组件
+    //     Text buttonText = planningButton.GetComponentInChildren<Text>();
+    //     if (buttonText != null)
+    //     {
+    //         buttonText.text = isInPlanningMode ? "完成规划" : "开始规划";
+    //     }
 
-        Debug.Log(isInPlanningMode ? "进入规划模式：可以选择任务" : "退出规划模式：不能选择任务");
-    }
+    //     Debug.Log(isInPlanningMode ? "进入规划模式：可以选择任务" : "退出规划模式：不能选择任务");
+    // }
 
     // 添加检查是否处于规划模式的方法
     public bool IsInPlanningMode()
