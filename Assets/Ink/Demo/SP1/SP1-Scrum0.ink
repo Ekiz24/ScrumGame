@@ -7,11 +7,11 @@ As our first Sprint hasn't started development yet, simply share your planned wo
 ->TeamUpdates
 
 =TeamUpdates
-I'll set up the game engine and configure version control with repositories. #C:Cat:0
-Starting narrative design - drafting the main storyline and character backgrounds. #C:Deer:0
-Focusing on core gameplay mechanics design like restaurant management systems. #C:Fox:0
-Sketching initial character concepts and environment rough drafts on paper. #C:Peacock:0
-Creating a pastoral music theme for the meadow area. #C:Lark:0
+Envisioning vibrant color schemes and hand-drawn art style to create warm, playful characters and restaurants. #C:Peacock:0
+Aiming for cheerful yet soothing background music to evoke pastoral serenity. #C:Lark:0
+Researching rapid prototyping frameworks to accelerate concept validation. #C:Cat:0
+Core gameplay should focus on strategic menu planning, recipe R&D, and restaurant management decisions. #C:Fox:0
+Building a whimsical world filled with heartwarming adventures - starring a courageous sheep protagonist. #C:Deer:0 #C:Lark:0
 Playing in a game of playing as a stationary brick. #C:Capybara:0
 ->Clarification
 

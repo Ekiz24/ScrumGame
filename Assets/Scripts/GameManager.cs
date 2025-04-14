@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
     public Button completeButton;
     public Button resetButton;  // 新增复原按钮引用
     //public Button planningButton; // 新增规划按钮引用
-    public Image scrumFrameworkStageImage;
+
     public Image developmentStageImage;
     public Sprite[] stageImages; // Scrum框架阶段的图片数组
 
@@ -151,10 +151,15 @@ public class GameManager : MonoBehaviour
         List<ItemData> noPriorityItems = new List<ItemData>();
         List<ItemData> selectedItems = new List<ItemData>();
 
-        // 根据优先级和选中状态分组
+        // 根据优先级和选中状态分组，不再处理已完成的任务
         foreach (ItemData item in gameData.items)
         {
-            if (item.isSelected)
+            if (item.isCompleted)
+            {
+                // 已完成的任务不再显示
+                continue;
+            }
+            else if (item.isSelected)
             {
                 selectedItems.Add(item);
             }
@@ -176,7 +181,7 @@ public class GameManager : MonoBehaviour
         lowPriorityItems.Sort((a, b) => a.positionIndex.CompareTo(b.positionIndex));
         noPriorityItems.Sort((a, b) => a.positionIndex.CompareTo(b.positionIndex));
 
-        // 创建高优先级物体 (只创建未选中的)
+        // 创建高优先级物体
         CreateItemsForContainer(highPriorityItems, highPriorityContainer);
         // 创建中优先级物体
         CreateItemsForContainer(mediumPriorityItems, mediumPriorityContainer);
@@ -186,6 +191,7 @@ public class GameManager : MonoBehaviour
         CreateItemsForContainer(noPriorityItems, noPriorityContainer);
         // 创建选中的物体
         CreateItemsForContainer(selectedItems, selectionContainer);
+
         AdjustSelectionContainerItems(); // 调整选择容器中的物体位置
     }
 
@@ -632,25 +638,6 @@ public class GameManager : MonoBehaviour
 
         SaveData();
         UpdateUI();
-    }
-
-    /// <summary>
-    /// 切换Scrum框架阶段图片
-    /// </summary>
-    /// <param name="stageIndex">阶段序号(从0开始)</param>
-    public void ChangeScrumFrameworkStage(int stageIndex)
-    {
-        // 检查索引是否有效
-        if (stageIndex >= 0 && stageIndex < stageImages.Length)
-        {
-            // 设置图片
-            scrumFrameworkStageImage.sprite = stageImages[stageIndex];
-            Debug.Log($"已切换Scrum框架阶段图片到第{stageIndex}张");
-        }
-        else
-        {
-            Debug.LogWarning($"无效的阶段序号: {stageIndex}, 有效范围: 0-{stageImages.Length - 1}");
-        }
     }
 
     /// <summary>

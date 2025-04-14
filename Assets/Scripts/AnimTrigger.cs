@@ -23,6 +23,12 @@ public class AnimTrigger : MonoBehaviour
     [Header("进度条设置")]
     public Slider progressSlider;
 
+    [Header("图像填充设置")]
+    public Image fillImage; // 要控制的图像
+    public float targetFillAmount = 1.0f; // 目标填充量
+
+    private float initialFillAmount; // 初始填充量
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -44,6 +50,12 @@ public class AnimTrigger : MonoBehaviour
             progressSlider.value = 0f;
         }
 
+        // 保存图像的初始填充量
+        if (fillImage != null)
+        {
+            initialFillAmount = fillImage.fillAmount;
+        }
+
         // 开始播放动画
         if (animator != null)
         {
@@ -63,11 +75,19 @@ public class AnimTrigger : MonoBehaviour
         while (elapsedTime < animationDuration)
         {
             elapsedTime = Time.time - startTime;
+            float progress = elapsedTime / animationDuration;
 
             // 更新进度条
             if (progressSlider != null)
             {
-                progressSlider.value = elapsedTime / animationDuration;
+                progressSlider.value = progress;
+            }
+
+            // 更新图像填充量
+            if (fillImage != null)
+            {
+                // 线性插值计算当前填充量
+                fillImage.fillAmount = Mathf.Lerp(initialFillAmount, targetFillAmount, progress);
             }
 
             yield return null; // 等待下一帧
@@ -77,6 +97,12 @@ public class AnimTrigger : MonoBehaviour
         if (progressSlider != null)
         {
             progressSlider.value = 1f;
+        }
+
+        // 确保图像填充量达到目标值
+        if (fillImage != null)
+        {
+            fillImage.fillAmount = targetFillAmount;
         }
 
         // 处理结束时要隐藏/显示的对象
