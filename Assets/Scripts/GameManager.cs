@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq; // 用于LINQ查询
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 [Serializable]
 public class ItemData
@@ -43,6 +44,10 @@ public class GameManager : MonoBehaviour
     private string saveFilePath;
     private bool isInResetMode = false;  // 是否处于复原模式
     private bool isInPlanningMode = false; // 是否处于规划模式
+
+    [Header("反馈弹窗")]
+    public GameObject errorPopup;
+    public TextMeshProUGUI errorMessageText;
 
     public int PerformanceScore
     {
@@ -468,14 +473,14 @@ public class GameManager : MonoBehaviour
 
     /// <summary>
     /// 筛选ProductBacklog，检查特定任务是否为无优先级
-    /// 如果特定任务不在无优先级，则会扣除性能分数
+    /// 如果有任何错误，总共扣10分表现分
     /// </summary>
-    /// <returns>扣除的分数</returns>
     public void SelectProductBacklog()
     {
         // 需要检查的任务列表
         string[] tasksToCheck = { "Hunting System", "Dance Floor Construction", "Room Cleaning" };
-        int deductionPoints = 0;
+        bool hasErrors = false;
+        List<string> errorTasks = new List<string>();
 
         foreach (string taskId in tasksToCheck)
         {
@@ -484,9 +489,10 @@ public class GameManager : MonoBehaviour
             {
                 if (item.priority != "无优先级")
                 {
-                    // 如果任务不是无优先级，扣1分
-                    deductionPoints++;
-                    Debug.Log($"任务 '{taskId}' 不在无优先级中，扣1分表现分");
+                    // 如果任务不是无优先级，记录错误
+                    hasErrors = true;
+                    errorTasks.Add(taskId);
+                    Debug.Log($"任务 '{taskId}' 不在无优先级中");
                 }
                 else
                 {
@@ -499,11 +505,37 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        // 如果有扣分，更新性能分数
-        if (deductionPoints > 0)
+        // 如果有任何错误，扣10分并显示弹窗
+        if (hasErrors)
         {
-            UpdatePerformanceScore(-deductionPoints);
-            Debug.Log($"总共扣除 {deductionPoints} 分表现分，当前表现分：{gameData.performanceScore}");
+            UpdatePerformanceScore(-10);
+            Debug.Log($"总共扣除10分表现分，当前表现分：{gameData.performanceScore}");
+
+            // 构建错误消息
+            string errorTasksString = string.Join(", ", errorTasks);
+            string message = $"I don't recall the client mentioning {errorTasksString}, but since you chose it that way...";
+
+            // 显示弹窗
+            if (errorPopup != null && errorMessageText != null)
+            {
+                errorMessageText.text = message;
+                errorPopup.SetActive(true);
+            }
+            else
+            {
+                Debug.LogWarning("错误弹窗或错误消息文本组件未设置，无法显示弹窗");
+            }
+        }
+        else
+        {
+            Debug.Log("所有任务优先级正确！");
+
+            // 添加正确弹窗提示
+            if (errorPopup != null && errorMessageText != null)
+            {
+                errorMessageText.text = "Great! That's what the client thinks.";
+                errorPopup.SetActive(true);
+            }
         }
     }
 
@@ -513,7 +545,17 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void PrioritizeProductBacklog()
     {
-        int deductionPoints = 0;
+        bool hasErrors = false;
+        List<string> errorMessages = new List<string>();
+
+        // 定义中英文优先级映射
+        Dictionary<string, string> priorityTranslations = new Dictionary<string, string>
+        {
+            { "高优先级", "High Priority" },
+            { "中优先级", "Medium Priority" },
+            { "低优先级", "Low Priority" },
+            { "无优先级", "No Priority" }
+        };
 
         // 定义每个优先级应有的任务
         Dictionary<string, string[]> priorityTasks = new Dictionary<string, string[]>
@@ -537,9 +579,10 @@ public class GameManager : MonoBehaviour
                 {
                     if (item.priority != priority)
                     {
-                        // 任务优先级错误，扣1分
-                        deductionPoints++;
-                        Debug.Log($"任务 '{taskId}' 应该在'{priority}'中，但当前在'{item.priority}'中，扣1分表现分");
+                        // 任务优先级错误，记录错误（使用英文优先级）
+                        hasErrors = true;
+                        errorMessages.Add($"{taskId} should be {priorityTranslations[priority]}");
+                        Debug.Log($"任务 '{taskId}' 应该在'{priority}'中，但当前在'{item.priority}'中");
                     }
                     else
                     {
@@ -553,27 +596,50 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        // 如果有扣分，更新性能分数
-        if (deductionPoints > 0)
+        // 如果有任何错误，扣10分并显示弹窗
+        if (hasErrors)
         {
-            UpdatePerformanceScore(-deductionPoints);
-            Debug.Log($"总共扣除 {deductionPoints} 分表现分，当前表现分：{gameData.performanceScore}");
+            UpdatePerformanceScore(-10);
+            Debug.Log($"总共扣除10分表现分，当前表现分：{gameData.performanceScore}");
+
+            // 构建错误消息(英文版)
+            string formattedErrors = string.Join(" and ", errorMessages);
+            string fullMessage = $"Sheep means {formattedErrors}, but you placed them in the wrong positions. Don't worry, you can always modify your Backlog.";
+
+            // 显示弹窗
+            if (errorPopup != null && errorMessageText != null)
+            {
+                errorMessageText.text = fullMessage;
+                errorPopup.SetActive(true);
+            }
+            else
+            {
+                Debug.LogWarning("错误弹窗或错误消息文本组件未设置，无法显示弹窗");
+            }
         }
         else
         {
             Debug.Log("所有任务优先级正确！");
+
+            // 添加正确弹窗提示
+            if (errorPopup != null && errorMessageText != null)
+            {
+                errorMessageText.text = "Great! That's what the client thinks.";
+                errorPopup.SetActive(true);
+            }
         }
     }
 
     /// <summary>
     /// 检查三个特定任务是否处于选中或完成状态
-    /// 如果任务既不是选中状态也不是完成状态，则扣1分表现分
+    /// 如果有任何错误，总共扣10分表现分并显示错误提示
     /// </summary>
     public void Check3SelectionStates()
     {
         // 需要检查的任务列表
         string[] tasksToCheck = { "Restaurant Operation System", "Recipe Creation System", "UI/UX" };
-        int deductionPoints = 0;
+        bool hasErrors = false;
+        List<string> errorTasks = new List<string>();
 
         foreach (string taskId in tasksToCheck)
         {
@@ -582,9 +648,10 @@ public class GameManager : MonoBehaviour
             {
                 if (!item.isSelected && !item.isCompleted)
                 {
-                    // 如果任务既不是选中状态也不是完成状态，扣1分
-                    deductionPoints++;
-                    Debug.Log($"任务 '{taskId}' 既不是选中状态也不是完成状态，扣1分表现分");
+                    // 如果任务既不是选中状态也不是完成状态，记录错误
+                    hasErrors = true;
+                    errorTasks.Add(taskId);
+                    Debug.Log($"任务 '{taskId}' 既不是选中状态也不是完成状态");
                 }
                 else
                 {
@@ -598,15 +665,37 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        // 如果有扣分，更新性能分数
-        if (deductionPoints > 0)
+        // 如果有错误，扣10分并显示弹窗
+        if (hasErrors)
         {
-            UpdatePerformanceScore(-deductionPoints);
-            Debug.Log($"总共扣除 {deductionPoints} 分表现分，当前表现分：{gameData.performanceScore}");
+            UpdatePerformanceScore(-10);
+            Debug.Log($"由于缺少关键任务，扣除10分表现分，当前表现分：{gameData.performanceScore}");
+
+            // 构建错误消息
+            string errorTasksString = string.Join(", ", errorTasks);
+            string message = $"The making of this game prototype should include task {errorTasksString}, but since you decided so...";
+
+            // 显示弹窗
+            if (errorPopup != null && errorMessageText != null)
+            {
+                errorMessageText.text = message;
+                errorPopup.SetActive(true);
+            }
+            else
+            {
+                Debug.LogWarning("错误弹窗或错误消息文本组件未设置，无法显示弹窗");
+            }
         }
         else
         {
             Debug.Log("所有关键任务都已经被选中或完成！");
+
+            // 添加正确弹窗提示
+            if (errorPopup != null && errorMessageText != null)
+            {
+                errorMessageText.text = "Great! That's what the client thinks.";
+                errorPopup.SetActive(true);
+            }
         }
     }
 
@@ -671,6 +760,61 @@ public class GameManager : MonoBehaviour
                 rt.anchoredPosition = new Vector2(0, -50 * index);
                 index++;
             }
+        }
+    }
+
+    /// <summary>
+    /// 检查指定任务是否处于选中或完成状态
+    /// 如果既不是选中也不是完成状态，则扣10分并显示提示
+    /// </summary>
+    /// <param name="taskId">要检查的任务ID</param>
+    public void CheckPreferredTask(string taskId)
+    {
+        Debug.Log($"检查任务是否被选中或完成: {taskId}");
+
+        // 查找指定任务
+        ItemData item = gameData.items.Find(i => i.itemId == taskId);
+
+        if (item != null)
+        {
+            bool isOK = item.isSelected || item.isCompleted;
+
+            if (!isOK)
+            {
+                // 任务既不是选中状态也不是完成状态，扣分并显示提示
+                UpdatePerformanceScore(-10);
+                Debug.Log($"任务 '{taskId}' 未被选中或完成，扣除10分，当前表现分：{gameData.performanceScore}");
+
+                // 构建错误消息
+                string message = $"The client wants to see {taskId} at the end of this Sprint, but since you chose so...";
+
+                // 显示弹窗
+                if (errorPopup != null && errorMessageText != null)
+                {
+                    errorMessageText.text = message;
+                    errorPopup.SetActive(true);
+                }
+                else
+                {
+                    Debug.LogWarning("错误弹窗或错误消息文本组件未设置，无法显示弹窗");
+                }
+            }
+            else
+            {
+                string status = item.isCompleted ? "完成" : "选中";
+                Debug.Log($"任务 '{taskId}' 已被{status}，符合要求");
+
+                // 添加正确弹窗提示
+                if (errorPopup != null && errorMessageText != null)
+                {
+                    errorMessageText.text = "Great! That's what the client thinks.";
+                    errorPopup.SetActive(true);
+                }
+            }
+        }
+        else
+        {
+            Debug.LogWarning($"未找到任务 '{taskId}'");
         }
     }
 }

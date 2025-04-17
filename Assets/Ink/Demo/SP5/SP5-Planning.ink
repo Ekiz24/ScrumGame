@@ -3,5 +3,5 @@
 
 =B
 You’ve now entered the Post-Production stage. At this point, your team mainly focuses on daily debugging, polish, and bug fixing tasks.#C:Squirrel:0
-Aiso, this is the final stage, and the game author hasn’t planned to add much game content. #C:Squirrel:0
+Of course, if you still have unfinished tasks, you can also grab this last minute. #C:Squirrel:0
 ->END

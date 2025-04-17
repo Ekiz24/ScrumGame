@@ -2,6 +2,7 @@
 ===A===
 
 =B
-This is Sprint Planning, but the game writer haven't written a interesting dialog here. But let's see. #C:Squirrel:0
-So you can just select some tasks for this sprint.#C:Squirrel:0
+Hey team, remember what our customers said at the last Sprint Review?#C:Dog:0
+He said he wanted to add a dance floor to this vegan restaurant.#C:Fox:0
+Great, so let's take that into account in the Sprint Backlog later!#C:Dog:0
 ->END

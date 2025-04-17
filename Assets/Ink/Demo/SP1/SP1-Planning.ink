@@ -2,7 +2,7 @@
 ===SprintGuide===
 
 =SprintIntro
-Congrats, now you'll officially be in Sprint 1 while you're in Concept Stage, which means we don't really need to start getting our hands on a digital game prototype just yet.#C:Squirrel:0
+Congrats, now you'll officially be in Sprint 1 while you're in Concept Stage.#C:Squirrel:0
 let's talk about Sprint Planning! It's a meeting at the beginning of the Sprint where the team discusses.#C:Squirrel:0
 Your dev team needs a clear prioritization of tasks before they actually start developing.#C:Squirrel:0
 So, your current mission is to classify 9 pre-selected tasks into High, Medium, and Low priority - 3 tasks per category.#C:Squirrel:0
